@@ -6,14 +6,14 @@
     "source": "Missale Romanum, editio typica tertia"
   },
   "speakers": {
-    "PRIEST": "S",
-    "DEACON": "D",
-    "READER": "L",
-    "PEOPLE": "P",
-    "ALL": "P",
-    "PRIEST/DEACON": "S",
-    "PRIEST/CHOIR": "S",
-    "PRIEST/CHOIR/DEACON": "S"
+    "PRIEST": "S:",
+    "DEACON": "D:",
+    "READER": "L:",
+    "PEOPLE": "P:",
+    "ALL": "P:",
+    "PRIEST/DEACON": "S:",
+    "PRIEST/CHOIR": "S:",
+    "PRIEST/CHOIR/DEACON": "S:"
   },
   "labels": {
     "title.mass_responses_core": "Ordo Missae – Responsoria",

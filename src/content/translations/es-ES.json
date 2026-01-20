@@ -5,14 +5,14 @@
     "rite": "Roman Rite – Ordinary Form"
   },
   "speakers": {
-    "PRIEST": "S",
-    "DEACON": "D",
-    "READER": "L",
-    "PEOPLE": "T",
-    "ALL": "T",
-    "PRIEST/DEACON": "S",
-    "PRIEST/CHOIR": "S",
-    "PRIEST/CHOIR/DEACON": "S"
+    "PRIEST": "S:",
+    "DEACON": "D:",
+    "READER": "L:",
+    "PEOPLE": "T:",
+    "ALL": "T:",
+    "PRIEST/DEACON": "S:",
+    "PRIEST/CHOIR": "S:",
+    "PRIEST/CHOIR/DEACON": "S:"
   },
   "labels": {
     "title.mass_responses_core": "La Santa Missa",
