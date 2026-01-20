@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "language": "sk-SK",
+    "label": "Slovenčina",
+    "rite": "Rímsko-katolícky"
+  },
+  "speakers": {
+    "PRIEST": "K:",
+    "DEACON": "D:",
+    "READER": "L:",
+    "PEOPLE": "R:",
+    "ALL": "R:",
+    "PRIEST/DEACON": "K:",
+    "PRIEST/CHOIR": "K:",
+    "PRIEST/CHOIR/DEACON": "K:"
+  },
+  "labels": {
+    "title.mass_responses_core": "Odpovede sv. Omše",
+    "title.introductory_rites": "Úvodné obrady",
+    "title.sign_of_cross": "Prežehnanie",
+    "title.greeting": "Liturgický pozdrav",
+    "title.penitential_act": "Úkon kajúcnosti",
+    "title.kyrie": "Kyrie",
+    "title.gloria": "Glória",
+    "title.collect": "Kolekta",
+    
+    "title.liturgy_of_the_word": "Liturgia Slova",
+    "title.first_reading": "Prvé čítanie",
+    "title.responsorial_psalm": "Reponzóriový Žalm",
+    "title.second_reading": "Druhé čítanie",
+    "title.gospel_acclamation": "Spev pred evanjeliom",
+    "title.gospel": "Evanjelium",
+    "title.creed": "Vyznanie viery",
+    "title.creed.nicene": "Nicejské",
+    "title.creed.apostles": "Apoštolské",
+    "title.prayer_of_faithful": "Modlitby veriacich",
+    
+    "title.liturgy_of_the_eucharist": "Liturgia Eucharistie",
+    "title.offertory": "Obetovanie",
+    "title.offertory_prayer": "Modlitba nad obetnými darmi",
+    "title.preface": "Prefácia",
+    "title.sanctus": "Svätý, svätý, svätý",
+    "title.eucharistic_prayer": "Eucharistická Modlitba",
+    "title.memorial_acclamation": "Tajomstvo viery",
+    "title.doxology": "Doxológia",
+    "title.lords_prayer": "Otče náš",
+    "title.sign_of_peace": "Znak pokoja",
+    "title.communion_rite": "Obrad prijímania",
+    "title.communion": "Sväté prijímanie",
+    
+    "title.concluding_rites": "Záverečné obrady",
+    "title.concluding.prayer": "Modlitba po prijímaní",
+    "title.blessing": "Požehnanie",
+    "title.dismissal": "Záver",
+
+    "choice.option_1": "1.",
+    "choice.option_2": "alebo 2.",
+    "choice.option_3": "alebo 3."
+  },
+  "texts": {
+    "sign.of.the.cross": "V mene Otca ✠ i Syna i Ducha Svätého.",
+    "response.amen": "Amen.",
+
+    "dialogue.the_lord_be_with_you": "Pán s vami.",
+    "dialogue.opening.longer": "Milosť nášho Pána Ježiša Krista a láska Boha Otca i spoločenstvo Ducha Svätého nech je s vami všetkými.",
+    "response.and_with_your_spirit": "I s duchom tvojím.",
+
+    "penitential.act.invitation": "Bratia a sestry, uznajme svoje hriechy, aby sme mohli s čistým srdcom sláviť sväté tajomstvá.",
+    "penitential.act.text": "Vyznávam všemohúcemu Bohu\ni vám, bratia a sestry,\nže som veľa zhrešil\nmyšlienkami, slovami, skutkami\na zanedbávaním dobrého.\nMoja vina, moja vina, moja preveľká vina.\nPreto prosím blahoslavenú Máriu, vždy Pannu,\nvšetkých anjelov a svätých,\ni vás, bratia a sestry,\nmodlite sa za mňa k Pánu Bohu nášmu.",
+    "penitential.act.absolution": "Nech sa nad nami zmiluje všemohúci Boh, nech nám hriechy odpustí a privedie nás do večného života.",
+
+    "kyrie.eleison": "Pane, zmiluj sa.",
+    "kyrie.eleison.response": "Pane, zmiluj sa.",
+    "christe.eleison": "Kriste, zmiluj sa.",
+    "christe.eleison.response": "Kriste, zmiluj sa.",
+    
+    "gloria.text": "Sláva Bohu na výsostiach\na na zemi pokoj ľuďom dobrej vôle.\nChválime ťa,\nvelebíme ťa,\nklaniame sa ti,\noslavujeme ťa,\nvzdávame ti vďaky, lebo veľká je sláva tvoja,\nPane Bože, Kráľ nebeský,\nBoh Otec všemohúci.\nPane Ježišu Kriste, ty jednorodený Syn,\nPán a Boh, Baránok Boží, Syn Otca:\nTy snímaš hriechy sveta, zmiluj sa nad nami.\nTy snímaš hriechy sveta, prijmi našu úpenlivú prosbu.\nTý sedíš po pravici Otca, zmiluj sa nad nami.\nVeď len ty si Svätý,\nlen ty si Pán,\nlen ty si Najvyšší, Ježišu Kriste,\ns Duchom Svätým\nv sláve Boha Otca.\nAmen.",
+
+    "invitation.let_us_pray": "Modlime sa.",
+
+    "reading.end": "Počuli sme božie slovo.",
+    "reading.response": "Bohu vďaka.",
+
+    "gospel.announcement": "Čítanie svätého evanjelia podľa M.",
+    "gospel.announcement.response": "Sláva Tebe, Pane.",
+    "gospel.end": "Počuli sme slovo Pánovo.",
+    "gospel.end.response": "Chvála Tebe, Kriste.",
+
+    "creed.nicene.text": "Verím v jedného Boha, Otca všemohúceho,\nStvoriteľa neba i zeme,\nsveta viditeľného i neviditeľného.\nVerím v jedného Pána Ježiša Krista,\njednorodeného Syna Božieho,\nzrodeného z Otca pred všetkými vekmi;\nBoha z Boha, Svetlo zo Svetla,\npravého Boha z Boha pravého,\nsplodeného, nie stvoreného,\njednej podstaty s Otcom.\nSkrze neho bolo všetko stvorené. \nOn pre nás ľudí a pre našu spásu zostúpil z nebies.\nA mocou Ducha Svätého vzal si telo z Márie Panny\na stal sa človekom.\nZa nás bol aj ukrižovaný za vlády Poncia Piláta,\nbol umučený a pochovaný,\nale tretieho dňa vstal z mŕtvych\npodľa Svätého písma.\nA vystúpil do neba,\nsedí po pravici Otca.\nA zasa príde v sláve súdiť živých i mŕtvych\na jeho kráľovstvu nebude konca.\nVerím v Ducha Svätého, Pána a Oživovateľa,\nktorý vychádza z Otca i Syna.\nJemu sa zároveň vzdáva\ntá istá poklona a sláva ako Otcovi a Synovi.\nOn hovoril ústami prorokov.\nVerím v jednu, svätú, katolícku, apoštolskú Cirkev.\nVyznávam jeden krst na odpustenie hriechov\na očakávam vzkriesenie mŕtvych\na život budúceho veku. Amen",
+    "creed.apostles.text": "Verím v Boha, Otca všemohúceho,\nStvoriteľa neba i zeme,\ni v Ježiša Krista,\njeho jediného Syna, nášho Pána,\nktorý sa počal z Ducha Svätého,\nnarodil sa z Márie Panny,\ntrpel za vlády Poncia Piláta,\nbol ukrižovaný, umrel a bol pochovaný;\nzostúpil k zosnulým,\ntretieho dňa vstal z mŕtvych,\nvystúpil na nebesia,\nsedí po pravici Boha Otca všemohúceho.\nOdtiaľ príde súdiť živých i mŕtvych.\nVerím v Ducha Svätého, v svätú Cirkev katolícku,\nv spoločenstvo svätých, v odpustenie hriechov,\nvo vzkriesenie tela a v život večný. Amen.",
+
+    "prayer.faithful.invitation": "Prosme Pána.",
+    "prayer.faithful.response": "Prosíme Ťa, vyslyš nás.",
+
+    "offertory.blessing.bread": "Požehnaný si, Pane, Bože všetkého stvorenia,  ... aby sa nám stal chlebom života..",
+    "offertory.blessing.wine": "Požehnaný si, Pane, Bože všetkého stvorenia, ... aby sa nám stalo duchovným nápojom.",
+    "offertory.blessing.bread_wine.response": "Požehnaný Boh naveky!",
+    "offertory.invitation": "Modlite sa, bratia a sestry, aby sa moja i vaša obeta zaľúbila všemohúcemu Bohu Otcovi.",
+    "offertory.invitation.response": "Nech Pán prijme obetu z tvojich rúk\nna chválu a slávu svojho mena,\nna úžitok nám i celej svätej Cirkvi.",
+
+    "preface.lift_up_hearts": "Hore srdcia.",
+    "preface.response_2": "Máme ich u Pána.",
+    "preface.let_us_give_thanks": "Vzdávajme vďaky Pánovi, nášmu Bohu.",
+    "preface.response_3": "Je to dôstojné a správne.",
+    "preface.text": "Je naozaj dôstojné a správne ... hlásame tvoju slávu a jedným hlasom voláme:",
+
+    "sanctus.text": "Svätý, svätý, svätý\nPán, Boh všetkých svetov.\nPlné sú nebesia i zem tvojej slávy.\nHosanna na výsostiach!\nPožehnaný, ktorý prichádza v mene Pánovom!\nHosanna na výsostiach!",
+
+    "memorial.acclamation.invitation": "1. Hľa, tajomstvo viery. 2. Vyznajme tajomstvo viery. 3. Veľké je tajomstvo viery.",
+    "memorial.acclamation_1": "Smrť tvoju, Pane, zvestujeme a tvoje zmŕtvychvstanie vyznávame, kým neprídeš v sláve.",
+    "memorial.acclamation_2": "Pane, keď jeme tento chlieb a pijeme z tohto kalicha, zvestujeme tvoju smrť, kým neprídeš v sláve.",
+    "memorial.acclamation_3": "Spasiteľ sveta, zachráň nás, veď ty si nás vykúpil svojím krížom a zmŕtvychvstaním.",
+
+    "doxology": "Skrze Krista, s Kristom a v Kristovi máš ty, Bože Otče všemohúci, v jednote s Duchom Svätým všetku úctu a slávu po všetky veky vekov.",
+    
+    "lords_prayer.invitation": "Na príkaz nášho Spasiteľa a podľa jeho božského učenia osmeľujeme sa povedať:",
+    "lords_prayer.text": "Otče náš, ktorý si na nebesiach,\nposväť sa meno tvoje,\npríď kráľovstvo tvoje,\nbuď vôľa tvoja ako v nebi, tak i na zemi.\nChlieb náš každodenný daj nám dnes\na odpusť nám naše viny,\nako i my odpúšťame svojim vinníkom,\na neuveď nás do pokušenia,\nale zbav nás zlého.",
+    "lords_prayer.post": "Prosíme ťa, Pane, zbav nás všetkého zla, udeľ svoj pokoj našim dňom a príď nám milosrdne na pomoc, aby sme boli vždy uchránení pred hriechom a pred každým nepokojom, kým očakávame blaženú nádej a príchod nášho Spasiteľa Ježiša Krista",
+    "lords_prayer.post.response": "Lebo tvoje je kráľovstvo a moc i sláva naveky.",
+
+    "peace.prayer": "Pane Ježišu Kriste, ...  lebo ty žiješ a kraľuješ na veky vekov.",
+    "peace.prayer_2": "Pokoj Pánov nech je vždy s vami.",
+    "peace.invitation": "Dajte si znak pokoja.",
+    "peace.text": "Pokoj a bratská láska nech je medzi nami.",
+
+    "agnus_dei.text": "Baránok Boží, ty snímaš hriechy sveta:\nzmiluj sa nad nami.\nBaránok Boží, ty snímaš hriechy sveta:\nzmiluj sa nad nami.\nBaránok Boží, ty snímaš hriechy sveta:\ndaruj nám pokoj.",
+    "agnus_dei.prayer": "Hľa, Baránok Boží, ktorý sníma hriechy sveta. Blažení tí, čo sú pozvaní na hostinu Baránkovu.",
+    "agnus_dei.lord_i_am_not_worthy": "Pane, nie som hoden, aby si vošiel pod moju strechu,\nale povedz iba slovo\na duša mi ozdravie.",
+
+    "blessing": "Nech vás žehná všemohúci Boh, Otec ✠ i Syn i Duch Svätý.",
+
+    "dismissal": "Choďte v mene Božom.",
+    "dismissal.people.response": "Bohu vďaka."
+  }
+}

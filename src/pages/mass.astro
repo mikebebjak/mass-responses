@@ -1,0 +1,312 @@
+---
+import "../styles/global.css";
+
+import TopBar from "../components/TopBar.astro";
+import SectionAccordion from "../components/SectionAccordion.astro";
+
+// Content
+import flow from "../content/flows/ordinary_form_core.json";
+import segments from "../content/segments.json";
+
+// Translations
+import en from "../content/translations/en-EN.json";
+import es from "../content/translations/es-ES.json";
+import la from "../content/translations/la-LA.json";
+import sk from "../content/translations/sk-SK.json";
+
+type SegmentMeta = {
+  id: string;
+  speaker?: string;
+  kind?: string;
+  style?: string;
+};
+
+const segmentsById = new Map<string, SegmentMeta>();
+for (const s of segments as SegmentMeta[]) segmentsById.set(s.id, s);
+
+const translations = {
+  "en-EN": en,
+  "es-ES": es,
+  "la-LA": la,
+  "sk-SK": sk
+};
+
+const defaultPrimary = "en-EN";
+const defaultSecondary = "la-LA";
+const fallbackLang = "en-EN";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mass Responses in Different Language for Travelers</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  </head>
+
+  <body class="min-h-screen bg-white text-slate-900">
+    <div id="mr-header" class="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto max-w-2xl px-3 py-3">
+        <TopBar
+          availableLangs={Object.keys(translations)}
+          defaultPrimary={defaultPrimary}
+          defaultSecondary={defaultSecondary}
+        />
+      </div>
+    </div>
+
+    <main class="mx-auto max-w-2xl px-3 pb-24 pt-4">
+      <h1 class="mb-3 text-2xl font-semibold leading-tight" data-labelkey={flow.titleKey}></h1>
+
+      <div class="space-y-3">
+        {flow.sections.map((section: any) => (
+          <SectionAccordion section={section} segmentsById={segmentsById} />
+        ))}
+      </div>
+    </main>
+
+    {/* ✅ Data injection (no query params here; those are client-only in static builds) */}
+    <script
+      is:inline
+      define:vars={{ translations, defaultPrimary, defaultSecondary, fallbackLang }}
+    >
+      window.__MR_DATA__ = {
+        translations,
+        defaultPrimary,
+        defaultSecondary,
+        fallbackLang
+      };
+    </script>
+
+    {/* ✅ ES5-safe client logic */}
+    <script is:inline>
+      (function () {
+        var data = window.__MR_DATA__;
+        if (!data || !data.translations) return;
+
+        var STORAGE_KEY = "mass-responses:prefs:v1";
+
+        function loadPrefs() {
+          try {
+            var raw = localStorage.getItem(STORAGE_KEY);
+            return raw ? JSON.parse(raw) : null;
+          } catch (e) {
+            return null;
+          }
+        }
+
+        function savePrefs(state) {
+          try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+          } catch (e) {}
+        }
+
+        function getUrlLang() {
+          try {
+            return new URLSearchParams(window.location.search).get("lang");
+          } catch (e) {
+            return null;
+          }
+        }
+
+        var saved = loadPrefs();
+
+        var primary = (saved && saved.primary) ? saved.primary : data.defaultPrimary;
+        var secondary = (saved && saved.secondary) ? saved.secondary : data.defaultSecondary;
+        var showSecondary = (saved && typeof saved.showSecondary === "boolean") ? saved.showSecondary : false;
+        var fallback = data.fallbackLang || "en-EN";
+
+        // ✅ URL override (works regardless of Astro SSR/static)
+        var urlLang = getUrlLang();
+        if (urlLang && data.translations[urlLang]) {
+          primary = urlLang;
+          savePrefs({ primary: primary, secondary: secondary, showSecondary: showSecondary });
+
+          // Optional: clean the URL so it doesn't hang around
+          try {
+            window.history.replaceState({}, "", window.location.pathname + window.location.hash);
+          } catch (e) {}
+        }
+
+        function $(sel, root) {
+          if (!root) root = document;
+          return root.querySelector(sel);
+        }
+
+        function $$(sel, root) {
+          if (!root) root = document;
+          return Array.prototype.slice.call(root.querySelectorAll(sel));
+        }
+
+        function pickLabel(obj, key) {
+          if (!obj) return null;
+          if (obj.labels && obj.labels[key]) return obj.labels[key];
+          if (obj.label && obj.label[key]) return obj.label[key];
+          if (obj.ui && obj.ui[key]) return obj.ui[key];
+          return null;
+        }
+
+        function labelFor(lang, key) {
+          var t = data.translations[lang];
+          var f = data.translations[fallback];
+          var val = pickLabel(t, key) || pickLabel(f, key) || key;
+          if (typeof val !== "string" || val.replace(/\s+/g, "").length === 0) return key;
+          return val;
+        }
+
+        function pickText(obj, id) {
+          if (!obj) return null;
+          if (obj.texts && obj.texts[id]) return obj.texts[id];
+          if (obj.segments && obj.segments[id]) return obj.segments[id];
+          if (obj.strings && obj.strings[id]) return obj.strings[id];
+          if (obj.text && obj.text[id]) return obj.text[id];
+          return null;
+        }
+
+        function textFor(lang, id) {
+          var t = data.translations[lang];
+          var f = data.translations[fallback];
+          var val = pickText(t, id) || pickText(f, id);
+          if (typeof val !== "string" || val.replace(/\s+/g, "").length === 0) {
+            return "[[MISSING: " + id + "]]";
+          }
+          return val;
+        }
+
+        function renderLabels() {
+          $$("[data-labelkey]").forEach(function (el) {
+            var key = el.getAttribute("data-labelkey");
+            el.textContent = labelFor(primary, key);
+          });
+
+          $$("[data-titlekey]").forEach(function (el) {
+            var key = el.getAttribute("data-titlekey");
+            el.textContent = labelFor(primary, key);
+          });
+
+          $$("[data-optiontitlekey]").forEach(function (el) {
+            var key = el.getAttribute("data-optiontitlekey");
+            el.textContent = labelFor(primary, key);
+          });
+        }
+
+        function renderTexts() {
+          $$("[data-textid][data-langrole='primary']").forEach(function (el) {
+            var id = el.getAttribute("data-textid");
+            el.textContent = textFor(primary, id);
+          });
+
+          $$("[data-textid][data-langrole='secondary']").forEach(function (el) {
+            var id = el.getAttribute("data-textid");
+            el.textContent = textFor(secondary, id);
+          });
+
+          $$("[data-secondarywrap]").forEach(function (wrap) {
+            wrap.style.display = showSecondary ? "" : "none";
+          });
+
+          $$("[data-line] .mr-cols").forEach(function (cols) {
+            cols.classList.toggle("mr-cols--single", !showSecondary);
+          });
+        }
+
+        function pickSpeaker(obj, sp) {
+          if (!obj) return null;
+          if (obj.speakers && obj.speakers[sp]) return obj.speakers[sp];
+          return null;
+        }
+
+        function speakerLabel(lang, sp) {
+          var t = data.translations[lang];
+          var f = data.translations[fallback];
+          return pickSpeaker(t, sp) || pickSpeaker(f, sp) || (sp ? sp + ":" : "");
+        }
+
+        function renderSpeakers() {
+          $$("[data-speakerrole='label']").forEach(function (el) {
+            var sp = el.getAttribute("data-speaker") || "";
+            el.textContent = speakerLabel(primary, sp);
+          });
+        }
+
+        function applyEmphasis() {
+          $$("[data-speaker]").forEach(function (el) {
+            var sp = el.getAttribute("data-speaker") || "";
+            var isPeople = sp.indexOf("PEOPLE") !== -1 || sp.indexOf("ALL") !== -1;
+            var isPriest = sp.indexOf("PRIEST") !== -1;
+
+            el.classList.toggle("mr-bold", isPeople);
+            el.classList.toggle("mr-italic", isPriest && !isPeople);
+          });
+        }
+
+        function initTopBar() {
+          var primarySel = $("#mr-primary-lang");
+          var secondaryToggle = $("#mr-secondary-toggle");
+          var secondarySel = $("#mr-secondary-lang");
+
+          if (primarySel) {
+            primarySel.value = primary;
+            primarySel.addEventListener("change", function () {
+              primary = primarySel.value;
+              savePrefs({ primary: primary, secondary: secondary, showSecondary: showSecondary });
+              renderLabels();
+              renderTexts();
+            });
+          }
+
+          if (secondarySel) {
+            secondarySel.value = secondary;
+            secondarySel.addEventListener("change", function () {
+              secondary = secondarySel.value;
+              savePrefs({ primary: primary, secondary: secondary, showSecondary: showSecondary });
+              renderTexts();
+            });
+          }
+
+          if (secondaryToggle) {
+            secondaryToggle.checked = showSecondary;
+            secondaryToggle.addEventListener("change", function () {
+              showSecondary = !!secondaryToggle.checked;
+              savePrefs({ primary: primary, secondary: secondary, showSecondary: showSecondary });
+              renderTexts();
+            });
+          }
+        }
+
+        // Hide header on scroll down, show on scroll up
+        (function () {
+          var header = document.getElementById("mr-header");
+          if (!header) return;
+
+          var lastY = window.scrollY || 0;
+          var ticking = false;
+
+          function onScroll() {
+            var y = window.scrollY || 0;
+            var goingDown = y > lastY;
+
+            if (Math.abs(y - lastY) > 6) {
+              header.classList.toggle("mr-header-hidden", goingDown && y > 80);
+              lastY = y;
+            }
+            ticking = false;
+          }
+
+          window.addEventListener("scroll", function () {
+            if (!ticking) {
+              ticking = true;
+              window.requestAnimationFrame(onScroll);
+            }
+          }, { passive: true });
+        })();
+
+        initTopBar();
+        renderLabels();
+        renderTexts();
+        renderSpeakers();
+        applyEmphasis();
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+---
+import "../styles/global.css";
+const enterHref = "/mass";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <title>Mass Responses in Different Language for Travelers</title>
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body class="min-h-screen bg-white text-slate-600">
+    <main class="mx-auto max-w-2xl px-4 py-10">
+      <div class="mr-topbar-right">
+        <a
+          class="rounded-xl border border-slate-300 px-4 py-3 font-semibold shadow-sm inline-flex items-center gap-2"
+          href="https://github.com/mikebebjak/mass-responses"
+          target="_blank"
+          rel="noopener"
+        >
+        <svg
+          viewBox="0 0 24 24"
+          class="h-4 w-4"
+          aria-hidden="true"
+          fill="currentColor">
+          <path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.29 3.438 9.773 8.205 11.363.6.11.82-.26.82-.577
+          0-.285-.01-1.04-.016-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757
+          -1.09-.745.083-.73.083-.73 1.205.085 1.84 1.238 1.84 1.238
+          1.07 1.835 2.807 1.305 3.492.998
+          .108-.776.418-1.305.762-1.605
+          -2.665-.304-5.467-1.332-5.467-5.93
+          0-1.31.468-2.38 1.235-3.22
+          -.124-.303-.535-1.523.117-3.176
+          0 0 1.008-.322 3.3 1.23
+          .957-.266 1.983-.399 3.003-.404
+          1.02.005 2.047.138 3.006.404
+          2.29-1.552 3.296-1.23 3.296-1.23
+          .653 1.653.242 2.873.118 3.176
+          .77.84 1.233 1.91 1.233 3.22
+          0 4.61-2.807 5.624-5.48 5.92
+          .43.372.823 1.103.823 2.222
+          0 1.606-.015 2.898-.015 3.293
+          0 .32.216.694.825.576
+          C20.565 22.27 24 17.79 24 12.5
+          24 5.87 18.627.5 12 .5z"/>
+        </svg>
+        GitHub
+        </a>
+        
+        <a class="rounded-xl border border-slate-300 px-4 py-3 font-semibold shadow-sm" href="https://buymeacoffee.com/mikebebs" target="_blank" rel="noopener">
+        Donate
+        </a>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-30"></div>
+
+      <h1 class="text-3xl font-semibold leading-tight">Mass Responses for Travelers</h1>
+
+      <p class="mr-text">
+        Clean, mobile-friendly Mass responses in different languages for travelers on the go — built by the community and optimized for ease of use during worship.
+      </p>
+
+      <div class="mt-10 flex flex-wrap gap-30"></div>
+
+      <div class="flag-carousel">
+        <div class="flag-track">
+          <a class="flag-chip fib fi-gb" href="/mass?lang=en-EN" aria-label="English"></a>
+          <a class="flag-chip fib fi-es" href="/mass?lang=es-ES" aria-label="Español"></a>
+          <a class="flag-chip fib fi-va" href="/mass?lang=la-LA" aria-label="Latin"></a>
+          <a class="flag-chip fib fi-sk" href="/mass?lang=sk-SK" aria-label="Slovenčina"></a>
+          <!--<a class="flag-chip fib fi-cz" href="/mass?lang=cz-CZ" aria-label="Čeština"></a>
+          <a class="flag-chip fib fi-fr" href="/mass?lang=fr-FR" aria-label="Français"></a>-->
+        </div>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-30"></div>
+
+      <a href={enterHref} class="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-5 py-4 text-lg font-semibold text-white shadow-sm">
+        Enter
+      </a>
+
+      <div class="mt-10 flex flex-wrap gap-30"></div>
+
+      <p class="mr-text">
+        Note: Vernacular liturgical texts are the property of their respective rights holders.
+        Texts here are NOT OFFICIAL and are provided for personal devotional and educational use only. Please <a href="mailto:michaelbebjak@gmail.com">contact us</a> with any questions. 
+      </p>
+
+    </main>
+  </body>
+</html>
+
+<script>
+
+function highlightActiveFlag(lang) {
+  document.querySelectorAll(".flag-chip").forEach(f =>
+    f.classList.toggle("active", f.dataset.lang === lang)
+  );
+}
+
+</script>

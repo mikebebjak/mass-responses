@@ -1,0 +1,176 @@
+{
+  "id": "ordinary_form_core",
+  "titleKey": "title.mass_responses_core",
+  "sections": [
+    {
+      "id": "introductory_rites",
+      "titleKey": "title.introductory_rites",
+      "nodes": [
+        { "type": "title", "labelKey": "title.sign_of_cross" },
+        { "type": "segment", "id": "sign.of.the.cross" },
+        { "type": "segment", "id": "response.amen" },
+
+        { "type": "title", "labelKey": "title.greeting" },
+        { "type": "segment", "id": "dialogue.opening.longer" },
+        { "type": "segment", "id": "response.and_with_your_spirit" },
+
+        { "type": "title", "labelKey": "title.penitential_act" },
+        { "type": "segment", "id": "penitential.act.invitation" },
+        { "type": "segment", "id": "penitential.act.text" },
+        { "type": "segment", "id": "penitential.act.absolution" },
+        { "type": "segment", "id": "response.amen" },
+
+        { "type": "title", "labelKey": "title.kyrie" },
+        { "type": "segment", "id": "kyrie.eleison" },
+        { "type": "segment", "id": "kyrie.eleison.response" },
+        { "type": "segment", "id": "christe.eleison" },
+        { "type": "segment", "id": "christe.eleison.response" },
+        { "type": "segment", "id": "kyrie.eleison" },
+        { "type": "segment", "id": "kyrie.eleison.response" },
+
+        { "type": "title", "labelKey": "title.gloria" },
+        { "type": "segment", "id": "gloria.text" },
+
+        { "type": "title", "labelKey": "title.collect" },
+        { "type": "segment", "id": "invitation.let_us_pray" },
+        { "type": "segment", "id": "response.amen" }
+      ]
+    },
+
+    {
+      "id": "liturgy_of_the_word",
+      "titleKey": "title.liturgy_of_the_word",
+      "nodes": [
+        { "type": "title", "labelKey": "title.first_reading" },
+        { "type": "segment", "id": "reading.end" },
+        { "type": "segment", "id": "reading.response" },
+        { "type": "title", "labelKey": "title.responsorial_psalm" },
+        { "type": "title", "labelKey": "title.second_reading" },
+        { "type": "segment", "id": "reading.end" },
+        { "type": "segment", "id": "reading.response" },
+        { "type": "title", "labelKey": "title.gospel_acclamation" },
+        { "type": "title", "labelKey": "title.gospel" },
+        { "type": "segment", "id": "dialogue.the_lord_be_with_you" },
+        { "type": "segment", "id": "response.and_with_your_spirit" },
+        { "type": "segment", "id": "gospel.announcement" },
+        { "type": "segment", "id": "gospel.announcement.response" },
+        { "type": "segment", "id": "gospel.end" },
+        { "type": "segment", "id": "gospel.end.response" },
+
+        {
+          "type": "choice",
+          "id": "choice.creed",
+          "titleKey": "title.creed",
+          "options": [
+            {
+              "id": "nicene",
+              "titleKey": "title.creed.nicene",
+              "nodes": [
+                { "type": "segment", "id": "creed.nicene.text" }
+              ]
+            },
+            {
+              "id": "apostles",
+              "titleKey": "title.creed.apostles",
+              "nodes": [
+                { "type": "segment", "id": "creed.apostles.text" }
+              ]
+            }
+          ]
+        },
+
+        { "type": "title", "labelKey": "title.prayer_of_faithful" },
+        { "type": "segment", "id": "prayer.faithful.invitation" },
+        { "type": "segment", "id": "prayer.faithful.response" }
+      ]
+    },
+
+    {
+      "id": "liturgy_of_the_eucharist",
+      "titleKey": "title.liturgy_of_the_eucharist",
+      "nodes": [
+        { "type": "title", "labelKey": "title.offertory" },
+        { "type": "segment", "id": "offertory.blessing.bread" },
+        { "type": "segment", "id": "offertory.blessing.bread_wine.response" },
+        { "type": "segment", "id": "offertory.blessing.wine" },
+        { "type": "segment", "id": "offertory.blessing.bread_wine.response" },
+        { "type": "segment", "id": "offertory.invitation" },
+        { "type": "segment", "id": "offertory.invitation.response" },
+
+        { "type": "title", "labelKey": "title.offertory_prayer" },
+        { "type": "segment", "id": "invitation.let_us_pray" },
+        { "type": "segment", "id": "response.amen" },
+
+        { "type": "title", "labelKey": "title.preface" },
+        { "type": "segment", "id": "dialogue.the_lord_be_with_you" },
+        { "type": "segment", "id": "response.and_with_your_spirit" },
+        { "type": "segment", "id": "preface.lift_up_hearts" },
+        { "type": "segment", "id": "preface.response_2" },
+        { "type": "segment", "id": "preface.let_us_give_thanks" },
+        { "type": "segment", "id": "preface.response_3" },
+        { "type": "segment", "id": "preface.text" },
+
+        { "type": "title", "labelKey": "title.sanctus" },
+        { "type": "segment", "id": "sanctus.text" },
+
+        { "type": "title", "labelKey": "title.eucharistic_prayer" },
+
+        { "type": "title", "labelKey": "title.memorial_acclamation" },
+        { "type": "segment", "id": "memorial.acclamation.invitation" },
+        {
+          "type": "choice",
+          "id": "choice.memorial_acclamation",
+          "options": [
+            { "id": "a1", "titleKey": "choice.option_1", "nodes": [{ "type": "segment", "id": "memorial.acclamation_1" }] },
+            { "id": "a2", "titleKey": "choice.option_2", "nodes": [{ "type": "segment", "id": "memorial.acclamation_2" }] },
+            { "id": "a3", "titleKey": "choice.option_3", "nodes": [{ "type": "segment", "id": "memorial.acclamation_3" }] }
+          ]
+        },
+
+        { "type": "title", "labelKey": "title.eucharistic_prayer" },
+        { "type": "title", "labelKey": "title.doxology" },
+        { "type": "segment", "id": "doxology" },
+        { "type": "segment", "id": "response.amen" },
+
+        { "type": "title", "labelKey": "title.lords_prayer" },
+        { "type": "segment", "id": "lords_prayer.invitation" },
+        { "type": "segment", "id": "lords_prayer.text" },
+        { "type": "segment", "id": "lords_prayer.post" },
+        { "type": "segment", "id": "lords_prayer.post.response" },
+
+        { "type": "title", "labelKey": "title.sign_of_peace" },
+        { "type": "segment", "id": "peace.prayer" },
+        { "type": "segment", "id": "response.amen" },
+        { "type": "segment", "id": "peace.prayer_2" },
+        { "type": "segment", "id": "response.and_with_your_spirit" },
+        { "type": "segment", "id": "peace.invitation" },
+        { "type": "segment", "id": "peace.text" },
+
+        { "type": "title", "labelKey": "title.communion_rite" },
+        { "type": "segment", "id": "agnus_dei.text" },
+        { "type": "segment", "id": "agnus_dei.prayer" },
+        { "type": "segment", "id": "agnus_dei.lord_i_am_not_worthy" },
+
+        { "type": "title", "labelKey": "title.communion" }
+      ]
+    },
+
+    {
+      "id": "concluding_rites",
+      "titleKey": "title.concluding_rites",
+      "nodes": [
+        { "type": "title", "labelKey": "title.concluding.prayer" },
+        { "type": "segment", "id": "invitation.let_us_pray" },
+        { "type": "segment", "id": "response.amen" },
+        
+        { "type": "title", "labelKey": "title.blessing" },
+        { "type": "segment", "id": "dialogue.the_lord_be_with_you" },
+        { "type": "segment", "id": "response.and_with_your_spirit" },
+        { "type": "segment", "id": "blessing" },
+        { "type": "segment", "id": "response.amen" },
+        { "type": "segment", "id": "dismissal" },
+        { "type": "segment", "id": "dismissal.people.response" }
+      ]
+    }
+  ]
+}

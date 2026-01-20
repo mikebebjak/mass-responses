@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "language": "la",
+    "label": "Latina",
+    "rite": "Roman Rite – Ordinary Form",
+    "source": "Missale Romanum, editio typica tertia"
+  },
+  "speakers": {
+    "PRIEST": "S",
+    "DEACON": "D",
+    "READER": "L",
+    "PEOPLE": "P",
+    "ALL": "P",
+    "PRIEST/DEACON": "S",
+    "PRIEST/CHOIR": "S",
+    "PRIEST/CHOIR/DEACON": "S"
+  },
+  "labels": {
+    "title.mass_responses_core": "Ordo Missae – Responsoria",
+    "title.introductory_rites": "Ritus initiales",
+    "title.sign_of_cross": "Signum Crucis",
+    "title.greeting": "Salutatio",
+    "title.penitential_act": "Actus paenitentialis",
+    "title.kyrie": "Kyrie",
+    "title.gloria": "Gloria",
+    "title.collect": "Collecta",
+
+    "title.liturgy_of_the_word": "Liturgia verbi",
+    "title.first_reading": "Lectio Prima",
+    "title.responsorial_psalm": "Psalmus responsorius",
+    "title.second_reading": "Lection Secunda",
+    "title.gospel_acclamation": "Acclamatio evangelii",
+    "title.gospel": "Evangelium",
+    "title.creed": "Credo",
+    "title.creed.nicene": "Symbolum Nicaenum-Constantinopolitanum",
+    "title.creed.apostles": "Symbolum Apostolorum",
+    "title.prayer_of_faithful": "Oratio universalis",
+
+    "title.liturgy_of_the_eucharist": "Liturgia eucharistica",
+    "title.offertory": "Offertorium",
+    "title.offertory_prayer": "Offertory Prayer",
+    "title.preface": "Praefatio",
+    "title.sanctus": "Sanctus",
+    "title.eucharistic_prayer": "Oratio eucaristica",
+    "title.memorial_acclamation": "Acclamatio memorialis",
+    "title.doxology": "Doxologia",
+    "title.lords_prayer": "Oratio Dominica",
+    "title.sign_of_peace": "Ritus pacis",
+    "title.communion_rite": "Ritus Communionis",
+    "title.communion": "Communio",
+
+    "title.concluding_rites": "Ritus conclusionis",
+    "title.blessing": "Benedictio",
+    "title.dismissal": "Dimissio",
+
+    "choice.option_1": "Optio I",
+    "choice.option_2": "Optio II",
+    "choice.option_3": "Optio III"
+  },
+  "texts": {
+    "sign.of.the.cross": "In nomine Patris, ✠ et Filii, et Spiritus Sancti.",
+    "response.amen": "Amen.",
+
+    "dialogue.the_lord_be_with_you": "Dominus vobiscum.",
+    "dialogue.opening.longer": "Dominus vobiscum.",
+    "response.and_with_your_spirit": "Et cum spiritu tuo.",
+
+    "penitential.act.invitation": "Fratres, agnoscamus peccata nostra, ut apti simus ad sacra mysteria celebranda.",
+    "penitential.act.text": "Confiteor Deo omnipotenti\net vobis, fratres,\nquia peccavi nimis\ncogitatione, verbo, opere et omissione:\nmea culpa, mea culpa, mea maxima culpa.\nIdeo precor beatam Mariam semper Virginem,\nomnes Angelos et Sanctos,\net vos, fratres,\norate pro me ad Dominum Deum nostrum.",
+    "penitential.act.absolution": "Misereatur nostri omnipotens Deus\net, dimissis peccatis nostris,\nperducat nos ad vitam aeternam.",
+
+    "kyrie.eleison": "Kyrie, eleison.",
+    "kyrie.eleison.response": "Kyrie, eleison.",
+    "christe.eleison": "Christe, eleison.",
+    "christe.eleison.response": "Christe, eleison.",
+    
+    "gloria.text": "Gloria in excelsis Deo\net in terra pax hominibus bonae voluntatis.\nLaudamus te, benedicimus te, adoramus te, glorificamus te,\ngratias agimus tibi propter magnam gloriam tuam,\nDomine Deus, Rex caelestis, Deus Pater omnipotens.\nDomine Fili unigenite, Iesu Christe,\nDomine Deus, Agnus Dei, Filius Patris,\nqui tollis peccata mundi, miserere nobis;\nqui tollis peccata mundi, suscipe deprecationem nostram;\nqui sedes ad dexteram Patris, miserere nobis.\nQuoniam tu solus Sanctus, tu solus Dominus,\ntu solus Altissimus, Iesu Christe,\ncum Sancto Spiritu,\nin gloria Dei Patris. Amen.",
+
+    "invitation.let_us_pray": "Oremus.",
+
+    "reading.end": "Verbum Domini.",
+    "reading.response": "Deo gratias.",
+
+    "gospel.announcement": "Lectio sancti Evangelii secundum N.",
+    "gospel.announcement.response": "Gloria tibi, Domine.",
+    "gospel.end": "Verbum Domini.",
+    "gospel.end.response": "Laus tibi, Christe.",
+
+    "creed.nicene.text": "Credo in unum Deum,\nPatrem omnipotentem,\nfactorem caeli et terrae,\nvisibilium omnium et invisibilium.\nEt in unum Dominum Iesum Christum,\nFilium Dei unigenitum,\net ex Patre natum ante omnia saecula.\nDeum de Deo, Lumen de Lumine,\nDeum verum de Deo vero,\ngenitum, non factum, consubstantialem Patri;\nper quem omnia facta sunt.\nQui propter nos homines et propter nostram salutem descendit de caelis,\n(et incarnatus est de Spiritu Sancto ex Maria Virgine, et homo factus est.)\nCrucifixus etiam pro nobis sub Pontio Pilato;\npassus et sepultus est,\net resurrexit tertia die secundum Scripturas,\net ascendit in caelum, sedet ad dexteram Patris.\nEt iterum venturus est cum gloria iudicare vivos et mortuos,\ncuius regni non erit finis.\nEt in Spiritum Sanctum, Dominum et vivificantem,\nqui ex Patre Filioque procedit,\nqui cum Patre et Filio simul adoratur et conglorificatur,\nqui locutus est per prophetas.\nEt unam, sanctam, catholicam et apostolicam Ecclesiam.\nConfiteor unum baptisma in remissionem peccatorum.\nEt exspecto resurrectionem mortuorum\net vitam venturi saeculi. Amen.",
+    "creed.apostles.text": "Credo in Deum,\nPatrem omnipotentem,\nCreatorem caeli et terrae,\net in Iesum Christum, Filium eius unicum, Dominum nostrum,\nqui conceptus est de Spiritu Sancto,\nnatus ex Maria Virgine,\npassus sub Pontio Pilato,\ncrucifixus, mortuus et sepultus;\ndescendit ad inferos;\ntertia die resurrexit a mortuis;\nascendit ad caelos,\nsedet ad dexteram Dei Patris omnipotentis;\ninde venturus est iudicare vivos et mortuos.\nCredo in Spiritum Sanctum,\nsanctam Ecclesiam catholicam,\nsanctorum communionem,\nremissionem peccatorum,\ncarnis resurrectionem,\nvitam aeternam. Amen.",
+
+    "prayer.faithful.invitation": "Oremus.",
+    "prayer.faithful.response": "Te rogamus, audi nos.",
+
+    "offertory.blessing.bread": "Benedictus es, Domine, Deus universi,\nquia de tua largitate accepimus panem,\nquem tibi offerimus,\nfructum terrae et operis manuum hominum:\nex quo nobis fiet panis vitae.",
+    "offertory.blessing.wine": "Benedictus es, Domine, Deus universi,\nquia de tua largitate accepimus vinum,\nquod tibi offerimus,\nfructum vitis et operis manuum hominum:\nex quo nobis fiet potus spiritalis.",
+    "offertory.blessing.bread_wine.response": "Benedictus Deus in saecula.",
+    "offertory.invitation": "Orate, fratres, ut meum ac vestrum sacrificium acceptabile fiat apud Deum Patrem omnipotentem.",
+    "offertory.invitation.response": "Suscipiat Dominus sacrificium de manibus tuis\nad laudem et gloriam nominis sui,\nad utilitatem quoque nostram totiusque Ecclesiae suae sanctae.",
+
+    "preface.lift_up_hearts": "Sursum corda.",
+    "preface.response_2": "Habemus ad Dominum.",
+    "preface.let_us_give_thanks": "Gratias agamus Domino Deo nostro.",
+    "preface.response_3": "Dignum et iustum est.",
+    "preface.text": "Vere dignum et iustum est, aequum et salutare ... cumque omni militia caelestis exercitus, hymnum gloriae tuae canimus, sine fine dicentes: ",
+
+    "sanctus.text": "Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.\nPleni sunt caeli et terra gloria tua.\nHosanna in excelsis.\nBenedictus qui venit in nomine Domini.\nHosanna in excelsis.",
+
+    "memorial.acclamation.invitation": "Mysterium fidei.",
+    "memorial.acclamation_1": "Mortem tuam annuntiamus, Domine,\net tuam resurrectionem confitemur,\ndonec venias.",
+    "memorial.acclamation_2": "Quotiescumque manducamus panem hunc\net calicem bibimus,\nmortem tuam annuntiamus, Domine,\ndonec venias.",
+    "memorial.acclamation_3": "Salvator mundi, salva nos,\nqui per crucem et resurrectionem tuam\nliberasti nos.",
+
+    "doxology": "Per ipsum, et cum ipso, et in ipso, est tibi Deo Patri omnipotenti, in unitate Spiritus Sancti, omnis honor et gloria per ómnia saecula saeculórum.",
+
+    "lords_prayer.invitation": "Praeceptis salutaribus moniti et divina institutione formati, audemus dicere:",
+    "lords_prayer.text": "Pater noster, qui es in caelis,\nsanctificetur nomen tuum;\nadveniat regnum tuum;\nfiat voluntas tua, sicut in caelo et in terra.\nPanem nostrum cotidianum da nobis hodie;\net dimitte nobis debita nostra\nsicut et nos dimittimus debitoribus nostris;\net ne nos inducas in tentationem,\nsed libera nos a malo.",
+    "lords_prayer.post": "Libera nos, quaesumus, Domine, ab omnibus malis,\nda propitius pacem in diebus nostris,\nut, ope misericordiae tuae adiuti,\net a peccato simus semper liberi\net ab omni perturbatione securi,\nexspectantes beatam spem\net adventum Salvatoris nostri Iesu Christi.",
+    "lords_prayer.post.response": "Quia tuum est regnum\net potestas et gloria\nin saecula.",
+
+    "peace.prayer": "Domine Iesu Christe, qui dixisti Apostolis tuis:\nPacem relinquo vobis, pacem meam do vobis;\nne respicias peccata nostra,\nsed fidem Ecclesiae tuae,\neamque secundum voluntatem tuam pacificare et coadunare digneris.\nQui vivis et regnas in saecula saeculorum.",
+    "peace.prayer_2": "Pax Domini sit semper vobiscum.",
+    "peace.invitation": "Offerte vobis pacem.",
+    "peace.text": "Pax Domini.",
+
+    "agnus_dei.text": "Agnus Dei, qui tollis peccata mundi, miserere nobis.\nAgnus Dei, qui tollis peccata mundi, miserere nobis.\nAgnus Dei, qui tollis peccata mundi, dona nobis pacem.",
+    "agnus_dei.prayer": "Ecce Agnus Dei,\necce qui tollit peccata mundi.\nBeati qui ad cenam Agni vocati sunt.",
+    "agnus_dei.lord_i_am_not_worthy": "Domine, non sum dignus\nut intres sub tectum meum,\nsed tantum dic verbo\net sanabitur anima mea.",
+
+    "blessing": "Benedicat vos omnipotens Deus, Pater ✠ et Filius and Spiritus Sanctus.",
+
+    "dismissal": "Ite missa est.",
+    "dismissal.people.response": "Deo gratias."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "language": "en-US",
+    "label": "English",
+    "rite": "Roman Rite – Ordinary Form"
+  },
+  "speakers": {
+    "PRIEST": "P:",
+    "DEACON": "D:",
+    "READER": "R:",
+    "PEOPLE": "A:",
+    "ALL": "A:",
+    "PRIEST/DEACON": "P:",
+    "PRIEST/CHOIR": "P:",
+    "PRIEST/CHOIR/DEACON": "P:"
+  },
+  "labels": {
+    "title.mass_responses_core": "Holy Mass Responses",
+    "title.introductory_rites": "Introductory Rites",
+    "title.sign_of_cross": "Sign of the Cross",
+    "title.greeting": "Greeting",
+    "title.penitential_act": "Penitential Act",
+    "title.kyrie": "Kyrie",
+    "title.gloria": "Gloria",
+    "title.collect": "Collect",
+
+    "title.liturgy_of_the_word": "Liturgy of the Word",
+    "title.first_reading": "First Reading",
+    "title.responsorial_psalm": "Responsorial Psalm",
+    "title.second_reading": "Second Reading",
+    "title.gospel_acclamation": "Gospel Acclamation",
+    "title.gospel": "Gospel",
+    "title.creed": "Creed",
+    "title.creed.nicene": "Nicene Creed",
+    "title.creed.apostles": "Apostles’ Creed",
+    "title.prayer_of_faithful": "Prayer of the Faithful",
+
+    "title.liturgy_of_the_eucharist": "Liturgy of the Eucharist",
+    "title.offertory": "Offertory",
+    "title.offertory_prayer": "Offertory Prayer",
+    "title.preface": "Preface",
+    "title.sanctus": "Holy, Holy (Sanctus)",
+    "title.eucharistic_prayer": "Eucharistic Prayer",
+    "title.memorial_acclamation": "Memorial Acclamation",
+    "title.doxology": "Doxology",
+    "title.lords_prayer": "Lord’s Prayer",
+    "title.sign_of_peace": "Sign of Peace",
+    "title.communion_rite": "Communion Rite",
+    "title.communion": "Communion",
+
+    "title.concluding_rites": "Concluding Rites",
+    "title.concluding.prayer": "Prayer after Communion",
+    "title.blessing": "Blessing",
+    "title.dismissal": "Dismissal",
+
+    "choice.option_1": "Option 1",
+    "choice.option_2": "Option 2",
+    "choice.option_3": "Option 3"
+  },
+  "texts": {
+    "sign.of.the.cross": "In the name of the Father, ✠ and of the Son, and of the Holy Spirit.",
+    "response.amen": "Amen.",
+
+    "dialogue.the_lord_be_with_you": "The Lord be with you.",
+    "dialogue.opening.longer": "The grace of our Lord Jesus Christ, the love of God, and the communion of the Holy Spirit be with you all.",
+    "response.and_with_your_spirit": "And with your spirit.",
+
+    "penitential.act.invitation": "Brothers and sisters, let us acknowledge our sins, and so prepare ourselves to celebrate the sacred mysteries.",
+    "penitential.act.text": "I confess to almighty God\nand to you, my brothers and sisters,\nthat I have greatly sinned,\nin my thoughts and in my words,\nin what I have done and in what I have failed to do,\nthrough my fault, through my fault,\nthrough my most grievous fault;\ntherefore I ask blessed Mary ever-Virgin,\nall the Angels and Saints,\nand you, my brothers and sisters,\nto pray for me to the Lord our God.",
+    "penitential.act.absolution": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life.",
+
+    "kyrie.eleison": "Lord, have mercy.",
+    "kyrie.eleison.response": "Lord, have mercy.",
+    "christe.eleison": "Christ, have mercy.",
+    "christe.eleison.response": "Christ, have mercy.",
+    
+    "gloria.text": "Glory to God in the highest,\nand on earth peace to people of good will.\nWe praise you,\nwe bless you,\nwe adore you,\nwe glorify you,\nwe give you thanks for your great glory,\nLord God, heavenly King,\nO God, almighty Father.\n\nLord Jesus Christ, Only Begotten Son,\nLord God, Lamb of God, Son of the Father,\nyou take away the sins of the world,\nhave mercy on us;\nyou take away the sins of the world,\nreceive our prayer;\nyou are seated at the right hand of the Father,\nhave mercy on us.\n\nFor you alone are the Holy One,\nyou alone are the Lord,\nyou alone are the Most High,\nJesus Christ,\nwith the Holy Spirit,\nin the glory of God the Father.\nAmen.",
+
+    "invitation.let_us_pray": "Let us pray.",
+
+    "reading.end": "The word of the Lord.",
+    "reading.response": "Thanks be to God.",
+
+    "gospel.announcement": "A reading from the holy Gospel according to N.",
+    "gospel.announcement.response": "Glory to you, O Lord.",
+    "gospel.end": "The Gospel of the Lord.",
+    "gospel.end.response": "Praise to you, Lord Jesus Christ.",
+
+    "creed.nicene.text": "I believe in one God,\nthe Father almighty,\nmaker of heaven and earth,\nof all things visible and invisible.\n\nI believe in one Lord Jesus Christ,\nthe Only Begotten Son of God,\nborn of the Father before all ages.\nGod from God, Light from Light,\ntrue God from true God,\nbegotten, not made, consubstantial with the Father;\nthrough him all things were made.\nFor us men and for our salvation\nhe came down from heaven,\nand by the Holy Spirit was incarnate of the Virgin Mary,\nand became man.\n\nFor our sake he was crucified under Pontius Pilate,\nhe suffered death and was buried,\nand rose again on the third day\nin accordance with the Scriptures.\nHe ascended into heaven\nand is seated at the right hand of the Father.\nHe will come again in glory\nto judge the living and the dead\nand his kingdom will have no end.\n\nI believe in the Holy Spirit, the Lord, the giver of life,\nwho proceeds from the Father and the Son,\nwho with the Father and the Son is adored and glorified,\nwho has spoken through the prophets.\n\nI believe in one, holy, catholic and apostolic Church.\nI confess one Baptism for the forgiveness of sins\nand I look forward to the resurrection of the dead\nand the life of the world to come. Amen.",
+    "creed.apostles.text": "I believe in God,\nthe Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\n\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting. Amen.",
+
+    "prayer.faithful.invitation": "We pray to the Lord.",
+    "prayer.faithful.response": "Lord, hear our prayer.",
+
+    "offertory.blessing.bread": "Blessed are you, Lord God of all creation ... it will become for us the bread of life.",
+    "offertory.blessing.wine": "Blessed are you, Lord God of all creation ... it will become our spiritual drink.",
+    "offertory.blessing.bread_wine.response": "Blessed be God for ever.",
+    "offertory.invitation": "Pray, brothers and sisters, that my sacrifice and yours may be acceptable to God, the almighty Father.",
+    "offertory.invitation.response": "May the Lord accept the sacrifice at your hands\nfor the praise and glory of his name,\nfor our good and the good of all his holy Church.",
+
+    "preface.lift_up_hearts": "Lift up your hearts.",
+    "preface.response_2": "We lift them up to the Lord.",
+    "preface.let_us_give_thanks": "Let us give thanks to the Lord our God.",
+    "preface.response_3": "It is right and just.",
+    "preface.text": "It is truly right and just ... with the Angels and all the Saints we declare your glory, as with one voice we acclaim:",
+
+    "sanctus.text": "Holy, Holy, Holy Lord God of hosts.\nHeaven and earth are full of your glory.\nHosanna in the highest.\nBlessed is he who comes in the name of the Lord.\nHosanna in the highest.",
+
+    "memorial.acclamation.invitation": "The mystery of faith.",
+    "memorial.acclamation_1": "We proclaim your death, O Lord,\nand profess your Resurrection\nuntil you come again.",
+    "memorial.acclamation_2": "When we eat this Bread and drink this Cup,\nwe proclaim your death, O Lord,\nuntil you come again.",
+    "memorial.acclamation_3": "Save us, Saviour of the world,\nfor by your Cross and Resurrection\nyou have set us free.",
+
+    "doxology": "Through Him, with Him, and in Him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honor is yours, for ever and ever.",
+
+    "lords_prayer.invitation": "At the Saviour’s command and formed by divine teaching, we dare to say:",
+    "lords_prayer.text": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come;\nthy will be done on earth as it is in heaven.\nGive us this day our daily bread;\nand forgive us our trespasses\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.",
+    "lords_prayer.post": "Deliver us, Lord, we pray, from every evil,\nand grac­iously grant peace in our days,\nthat, by the help of your mercy,\nwe may be always free from sin and safe from all distress,\nas we await the blessed hope\nand the coming of our Saviour, Jesus Christ.",
+    "lords_prayer.post.response": "For the kingdom,\nthe power and the glory are yours\nnow and for ever.",
+
+    "peace.prayer": "Lord Jesus Christ, you said to your Apostles ... Who live and reign for ever and ever.",
+    "peace.prayer_2": "The peace of the Lord be with you always.",
+    "peace.invitation": "Let us offer each other the sign of peace.",
+    "peace.text": "Peace be with you.",
+
+    "agnus_dei.text": "Lamb of God, you take away the sins of the world,\nhave mercy on us.\nLamb of God, you take away the sins of the world,\nhave mercy on us.\nLamb of God, you take away the sins of the world,\ngrant us peace.",
+    "agnus_dei.prayer": "Behold the Lamb of God,\nbehold him who takes away the sins of the world.\nBlessed are those called to the supper of the Lamb.",
+    "agnus_dei.lord_i_am_not_worthy": "Lord, I am not worthy\nthat you should enter under my roof,\nbut only say the word\nand my soul shall be healed.",
+
+    "blessing": "May almighty God bless you, Father, ✠ Son and Holy Spirit.",
+
+    "dismissal": "Go forth, the Mass is ended.",
+    "dismissal.people.response": "Thanks be to God."
+  }
+}

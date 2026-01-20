@@ -1,0 +1,28 @@
+---
+import ChoiceBlock from "./ChoiceBlock.astro";
+import SegmentRow from "./SegmentRow.astro";
+
+const { section, segmentsById } = Astro.props;
+---
+
+<section class="mr-section">
+  <h2 class="mr-h2" data-labelkey={section.titleKey}></h2>
+
+  <div class="mr-section-body">
+    {section.nodes.map((node) => (
+      <>
+        {node.type === "title" && (
+          <h3 class="mr-h3" data-labelkey={node.labelKey}></h3>
+        )}
+
+        {node.type === "segment" && (
+          <SegmentRow segmentId={node.id} meta={segmentsById.get(node.id)} />
+        )}
+
+        {node.type === "choice" && (
+          <ChoiceBlock choice={node} segmentsById={segmentsById} />
+        )}
+      </>
+    ))}
+  </div>
+</section>

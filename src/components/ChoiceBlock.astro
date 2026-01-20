@@ -1,0 +1,36 @@
+---
+import SegmentRow from "./SegmentRow.astro";
+import ChoiceBlock from "./ChoiceBlock.astro";
+
+const { choice, segmentsById } = Astro.props;
+---
+
+<div class="mt-3">
+  <!-- Optional heading for the group (e.g. "Creed") -->
+  <div class="mr-h3" data-titlekey={choice.titleKey}></div>
+
+  <div class="space-y-6">
+    {choice.options.map((opt) => (
+      <div class="space-y-3">
+        <!-- Optional per-option heading (e.g. "Nicene Creed", "Omitted") -->
+        <div class="text-xs font-semibold text-slate-600" data-optiontitlekey={opt.titleKey}></div>
+
+        {opt.nodes.map((node) => (
+          <>
+            {node.type === "title" && (
+              <h4 class="mt-4 text-sm font-semibold text-slate-900" data-labelkey={node.labelKey}></h4>
+            )}
+
+            {node.type === "segment" && (
+              <SegmentRow segmentId={node.id} meta={segmentsById.get(node.id)} />
+            )}
+
+            {node.type === "choice" && (
+              <ChoiceBlock choice={node} segmentsById={segmentsById} />
+            )}
+          </>
+        ))}
+      </div>
+    ))}
+  </div>
+</div>

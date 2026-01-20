@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------
+   Global defaults
+   ----------------------------- */
+
+:root {
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Typography closer to printed missal feel */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* -----------------------------
+   Section headings / structure
+   ----------------------------- */
+
+.mr-h2 {
+  @apply mt-6 mb-2 text-lg font-semibold text-slate-900;
+}
+
+.mr-h3 {
+  @apply mt-3 mb-1 text-base font-semibold text-slate-900;
+}
+
+.mr-section {
+  @apply mb-5;
+}
+
+.mr-section-body {
+  @apply space-y-1;
+}
+
+/* -----------------------------
+   Line layout
+   ----------------------------- */
+
+.mr-line {
+  @apply flex gap-2 py-0.5;
+}
+
+.mr-spk {
+  @apply w-8 shrink-0 text-sm font-semibold text-slate-700;
+}
+
+/* Responsive columns:
+   - mobile: single column
+   - desktop: 2 equal columns */
+.mr-cols {
+  @apply grid gap-x-6 gap-y-1 w-full;
+  grid-template-columns: 1fr;
+}
+
+/* Force single column when secondary is hidden */
+.mr-cols--single {
+  grid-template-columns: 1fr !important;
+}
+
+@media (min-width: 900px) {
+  .mr-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Text */
+.mr-text {
+  @apply whitespace-pre-line text-[17px] leading-relaxed text-slate-900;
+}
+
+/* Secondary language styling */
+.mr-secondary {
+  @apply text-[15px] text-slate-600;
+}
+
+/* Emphasis rules */
+.mr-bold {
+  @apply font-bold;
+}
+
+.mr-italic {
+  font-style: italic;
+}
+
+/* -----------------------------
+   Sticky header (hide on scroll)
+   ----------------------------- */
+
+#mr-header {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.mr-header-hidden {
+  transform: translateY(-110%);
+}
+
+/* -----------------------------
+   Fixed Top bar layout
+   Keep: left select | home | right toggle+select on ONE line
+   ----------------------------- */
+
+.mr-topbar-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mr-topbar-left,
+.mr-topbar-right {
+  min-width: 0; /* critical: allows children (selects) to shrink */
+  display: flex;
+  align-items: center;
+}
+
+.mr-topbar-left {
+  justify-content: flex-start;
+}
+
+.mr-topbar-center {
+  justify-self: center;
+}
+
+.mr-topbar-right {
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+/* -----------------------------
+   Selects / toggle controls
+   ----------------------------- */
+
+/* Base select */
+.mr-select {
+  @apply rounded-2xl border border-slate-300 bg-white px-4 py-3
+    text-base font-semibold text-slate-900 shadow-sm;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/* Compact select (TopBar uses this) */
+.mr-select--compact {
+  @apply rounded-2xl border border-slate-300 bg-white px-4 py-3
+    text-base font-semibold text-slate-900 shadow-sm;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/* Toggle group (TopBar uses mr-toggle-inline + mr-toggle-pill) */
+.mr-toggle-inline {
+  @apply flex items-center gap-2 select-none;
+}
+
+.mr-toggle-input {
+  @apply h-5 w-5;
+}
+
+.mr-toggle-pill {
+  @apply text-sm font-semibold text-slate-800;
+  white-space: nowrap;
+}
+
+/* Mobile tightening (still one line) */
+@media (max-width: 480px) {
+  .mr-topbar-grid {
+    gap: 0.5rem;
+  }
+
+  .mr-topbar-right {
+    gap: 0.4rem;
+  }
+
+  .mr-select--compact {
+    font-size: 0.95rem;
+    padding: 0.55rem 0.65rem;
+  }
+}
+
+/* Ultra-small phones: hide the "2nd lang" text (checkbox still works) */
+@media (max-width: 360px) {
+  .mr-toggle-pill {
+    display: none;
+  }
+}
+
+/* -----------------------------
+   Flags carousel (homepage)
+   ----------------------------- */
+
+.flag-carousel {
+  width: 100%;
+}
+
+.flag-track {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem;
+
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+
+  scrollbar-width: none;
+}
+
+.flag-track::-webkit-scrollbar {
+  display: none;
+}
+
+.flag-chip {
+  scroll-snap-align: center;
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+
+  display: inline-block;
+  flex: 0 0 auto;
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transform: translateZ(0);
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+  text-decoration: none;
+}
+
+.flag-chip:hover {
+  transform: scale(1.06);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.flag-chip:active {
+  transform: scale(0.98);
+}
+
+.flag-chip.active {
+  border-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
+}

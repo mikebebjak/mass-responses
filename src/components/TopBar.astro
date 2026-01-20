@@ -1,0 +1,59 @@
+---
+const { availableLangs, defaultPrimary, defaultSecondary } = Astro.props;
+
+const LANG_NAMES = {
+  "es-ES": "Español",
+  "en-EN": "English",
+  "la-LA": "Latin",
+  "sk-SK": "Slovenčina",
+};
+const nameFor = (code) => LANG_NAMES[code] ?? code;
+---
+
+<div class="mr-topbar-grid">
+
+  <!-- Left: primary language -->
+  <div class="mr-topbar-left">
+    <select id="mr-primary-lang" class="mr-select mr-select--compact" aria-label="Primary language">
+      {availableLangs.map((l) => (
+        <option value={l} selected={l === defaultPrimary}>
+          {nameFor(l)}
+        </option>
+      ))}
+    </select>
+  </div>
+
+  <!-- Center: home button -->
+  <div class="mr-topbar-center">
+    <a href="/" class="rounded-xl border border-slate-300 px-4 py-3 font-semibold shadow-sm inline-flex items-center gap-2">
+      <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      fill="currentColor"
+      class="h-4 w-4">
+      <path d="M12 3.1c.3 0 .6.1.8.3l8.2 6.8c.4.3.4.9.1 1.3-.3.4-.9.4-1.3.1L19 11.1V20c0 1.1-.9 2-2 2h-3.7c-.6 0-1-.4-1-1v-4.7c0-.3-.2-.5-.5-.5h-.8c-.3 0-.5.2-.5.5V21c0 .6-.4 1-1 1H7c-1.1 0-2-.9-2-2v-8.9l-.7.6c-.4.3-1 .3-1.3-.1-.3-.4-.3-1 .1-1.3l8.2-6.8c.2-.2.5-.3.8-.3z"/>
+      </svg>
+    </a>
+
+  </div>
+
+  <!-- Right: toggle + secondary -->
+  <div class="mr-topbar-right">
+    <label class="mr-toggle-inline" aria-label="Show second language">
+      <input
+        id="mr-secondary-toggle"
+        type="checkbox"
+        class="mr-toggle-input"
+      />
+      <span class="mr-toggle-pill"></span>
+    </label>
+
+    <select id="mr-secondary-lang" class="mr-select mr-select--compact" aria-label="Second language">
+      {availableLangs.map((l) => (
+        <option value={l} selected={l === defaultSecondary}>
+          {nameFor(l)}
+        </option>
+      ))}
+    </select>
+  </div>
+</div>

@@ -1,0 +1,129 @@
+{
+  "meta": { 
+    "language": "es-ES",
+    "label": "Español (España)",
+    "rite": "Roman Rite – Ordinary Form"
+  },
+  "speakers": {
+    "PRIEST": "S",
+    "DEACON": "D",
+    "READER": "L",
+    "PEOPLE": "T",
+    "ALL": "T",
+    "PRIEST/DEACON": "S",
+    "PRIEST/CHOIR": "S",
+    "PRIEST/CHOIR/DEACON": "S"
+  },
+  "labels": {
+    "title.mass_responses_core": "La Santa Missa",
+    "title.introductory_rites": "Ritos iniciales",
+    "title.sign_of_cross": "Señal de la Cruz",
+    "title.greeting": "Saludo",
+    "title.penitential_act": "Acto penitencial",
+    "title.kyrie": "Kyrie",
+    "title.gloria": "Gloria",
+    "title.collect": "Oración colecta",
+
+    "title.liturgy_of_the_word": "Liturgia de la Palabra",
+    "title.first_reading": "Primera lectura",
+    "title.responsorial_psalm": "Salmo responsorial",
+    "title.second_reading": "Segunda lectura",
+    "title.gospel_acclamation": "Aclamación del evangelio",
+    "title.gospel": "Evangelio",
+    "title.creed": "Credo",
+    "title.creed.nicene": "Credo Niceno",
+    "title.creed.apostles": "Credo de los Apóstoles",
+    "title.prayer_of_faithful": "Oración de los fieles",
+
+    "title.liturgy_of_the_eucharist": "Liturgia eucarística",
+    "title.offertory": "Ofertorio",
+    "title.preface": "Prefacio",
+    "title.sanctus": "Santo, Santo (Sanctus)",
+    "title.memorial_acclamation": "Aclamación memorial",
+    "title.lords_prayer": "Padre nuestro",
+    "title.sign_of_peace": "Rito de la paz",
+    "title.communion": "Comunión",
+
+    "title.concluding_rites": "Ritos finales",
+    "title.concluding.prayer": "Oración después de la comunión",
+    "title.blessing": "Bendición",
+    "title.dismissal": "Despedida",
+
+    "choice.option_1": "Opción 1",
+    "choice.option_2": "Opción 2",
+    "choice.option_3": "Opción 3"
+  },
+  "texts": {
+    "sign.of.the.cross": "En el nombre del ✠ Padre, y del Hijo, y del Espíritu Santo.",
+    "response.amen": "Amén.",
+
+    "dialogue.the_lord_be_with_you": "El Señor esté con vosotros.",
+    "dialogue.opening.longer": "La gracia de nuestro Señor Jesucristo, el amor del Padre, y la comunión del Espíritu Santo estén con todos vosotros.",
+    "response.and_with_your_spirit": "Y con tu espíritu.",
+
+    "penitential.act.invitation": "Hermanos: para celebrar dignamente estos sagrados misterios, reconozcamos nuestros pecados.",
+    "penitential.act.text": "Yo confieso ante Dios todopoderoso\ny ante vosotros, hermanos,\nque he pecado mucho\nde pensamiento, palabra, obra y omisión;\npor mi culpa, por mi culpa, por mi grande culpa.\nPor eso ruego a Santa María, siempre Virgen,\na los ángeles, a los santos\ny a vosotros, hermanos,\nque intercedáis por mí ante Dios, nuestro Señor.",
+    "penitential.act.absolution": "Dios todopoderoso tenga misericordia de nosotros,\nperdone nuestros pecados\ny nos lleve a la vida eterna.",
+
+    "kyrie.eleison": "Señor, ten piedad.",
+    "kyrie.eleison.response": "Señor, ten piedad.",
+    "christe.eleison": "Cristo, ten piedad.",
+    "christe.eleison.response": "Cristo, ten piedad.",
+    
+    "gloria.text": "Gloria a Dios en el cielo,\ny paz en la tierra a los hombres que ama el Señor.\nPor tu inmensa gloria te alabamos,\nte benedicimos, te adoramos, te glorificamos,\nte damos gracias, Señor Dios, Rey celestial, Dios Padre todopoderoso.\nSeñor, Hijo único, Jesucristo.\nSeñor Dios, Cordero de Dios, Hijo del Padre:\ntú que quitas el pecado del mundo,\nten piedad de nosotros;\ntú que quitas el pecado del mundo,\natiende nuestra súplica;\ntú que estás sentado a la derecha del Padre,\nten piedad de nosotros;\npor que sólo tú eres Santo, sólo tú Señor,\nsólo tú Altísimo, Jesucristo,\ncon el Espíritu Santo en la gloria de Dios Padre.\nAmén.",
+
+    "invitation.let_us_pray": "Oremos.",
+
+    "reading.end": "Palabra de Dios.",
+    "reading.response": "Te alabamos, Señor.",
+
+    "gospel.announcement": "Lectura del santo Evangelio según san N.",
+    "gospel.announcement.response": "Gloria a Ti, Señor.",
+    "gospel.end": "Palabra del Señor.",
+    "gospel.end.response": "Gloria a Ti, Señor Jesús.",
+
+    "creed.nicene.text": "Creo en un solo Dios, Padre todopoderoso,\nCreador del cielo y de la tierra,\nde todo lo visible y lo invisible.\nCreo en un solo Señor, Jesucristo,\nHijo único de Dios,\nnacido del Padre antes de todos los siglos:\nDios de Dios, Luz de Luz,\nDios verdadero de Dios verdadero,\nengendrado, no creado,\nde la misma naturaleza del Padre,\npor quien todo fue hecho;\nque por nosotros, los hombres, y por nuestra salvación\nbajó del cielo,\ny por obra del Espíritu Santo se encarnó de María,\nla Virgen, y se hizo hombre.\nY por nuestra causa fue crucificado en tiempos de Poncio Pilato;\npadeció y fue sepultado,\ny resucitó al tercer día, según las Escrituras,\ny subió al cielo, y está sentado a la derecha del Padre;\ny de nuevo vendrá con gloria para juzgar a vivos y muertos,\ny su reino no tendrá fin.\nCreo en el Espíritu Santo,\nSeñor y dador de vida,\nque procede del Padre y del Hijo,\nque con el Padre y el Hijo recibe una misma adoración y gloria,\ny que habló por los profetas.\nCreo en la Iglesia,\nque es una, santa, católica y apostólica.\nConfieso que hay un solo bautismo para el perdón de los pecados.\nEspero la resurrección de los muertos\ny la vida del mundo futuro. Amén.",
+    "creed.apostles.text": "Creo en Dios, Padre todopoderoso,\nCreador del Cielo y de la Tierra. \nCreo en Jesucristo, su Único Hijo nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de Santa María Virgen.\nPadeció bajo el poder de Poncio Pilato.\nFue crucificado, muerto y sepultado.\nDescendió a los infiernos.\nAl tercer día, resucitó de entre los muertos.\nSubió a los Cielos\ny está sentado a la derecha de Dios Padre todopoderoso.\nDesde allí ha de venir a juzgar a los vivos y a los muertos.\nCreo en el Espíritu Santo, en la Santa Iglesia católica,\nla Comunión de los Santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna. Amén.",
+
+    "prayer.faithful.invitation": "Roguemos al Señor.",
+    "prayer.faithful.response": "Te rogamos, óyenos.",
+
+    "offertory.blessing.bread": "Bendito seas, Señor, Dios del universo, por este pan, fruto de la tierra y del trabajo del hombre, que recibimos de tu generosidad y ahora te presentamos; él será para nosotros pan de vida.",
+    "offertory.blessing.wine": "Bendito seas, Señor, Dios del universo, por este vino, fruto de la vid y del trabajo del hombre, que recibimos de tu generosidad y ahora te presentamos; él será para nosotros bebida de salvación.",
+    "offertory.blessing.bread_wine.response": "Bendito seas por siempre, Señor.",
+    "offertory.invitation": "Orad, hermanos, para que este sacrificio, mío y vuestro, sea agradable a Dios, Padre todopoderoso.",
+    "offertory.invitation.response": "El Señor reciba de tus manos este sacrificio\npara alabanza y gloria de su nombre,\npara nuestro bien\ny el de toda su santa Iglesia.",
+
+    "preface.lift_up_hearts": "Levantemos el corazón.",
+    "preface.response_2": "Lo tenemos levantado hacia el Señor.",
+    "preface.let_us_give_thanks": "Demos gracias al Señor, nuestro Dios.",
+    "preface.response_3": "Es justo y necesario.",
+    "preface.text": "En verdad es justo y necesario, es nuestro deber y salvación darte gracias, Padre santo, siempre y en todo lugar, por Jesucristo, tu Hijo amado. Por Él, que es tu Palabra, hiciste todas las cosas; tú nos lo enviaste para que, hecho hombre por obra del Espíritu Santo y nacido de María, la Virgen, fuera nuestro Salvador y Redentor. Él, en cumplimiento de tu voluntad, para destruir la muerte y manifestar la resurrección, extendió sus brazos en la cruz, y así adquirió para ti un pueblo santo. Por eso, con los ángeles y los santos, proclamamos tu gloria, diciendo:",
+
+    "sanctus.text": "Santo, Santo, Santo es el Señor, Dios del universo.\nLlenos están el cielo y la tierra de tu gloria.\nHosanna en el cielo.\nBendito el que viene en nombre del Señor.\nHosanna en el cielo.",
+
+    "memorial.acclamation.invitation": "Este es el sacramento de nuestra fe.",
+    "memorial.acclamation_1": "Anunciamos tu muerte, proclamamos tu resurrección.\n¡Ven, Señor Jesús!",
+    "memorial.acclamation_2": "Cada vez que comemos de este pan y bebemos de este cáliz,\nanunciamos tu muerte, Señor,\nhasta que vuelvas.",
+    "memorial.acclamation_3": "Salvador del mundo, sálvanos,\nque nos has liberado por tu cruz y resurrección.",
+
+    "lords_prayer.invitation": "Fieles a la recomendación del Salvador y siguiendo su divina enseñanza, nos atrevemos a decir:",
+    "lords_prayer.text": "Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad en la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal.",
+    "lords_prayer.post": "Líbranos de todos los males, Señor, y concédenos la paz en nuestros días, para que, ayudados por tu misericordia, vivamos siempre libres de pecado y protegidos de toda perturbación, mientras esperamos la gloriosa venida de nuestro Salvador Jesucristo.",
+    "lords_prayer.post.response": "Tuyo es el reino, tuyo el poder y la gloria, por siempre, Señor.",
+
+    "peace.prayer": "Señor Jesucristo, que dijiste a tus apóstoles: «La paz os dejo, mi paz os doy»; no tengas en cuenta nuestros pecados, sino la fe de tu Iglesia y, conforme a tu palabra, concédele la paz y la unidad. Tú que vives y reinas por los siglos de los siglos.",
+    "peace.prayer_2": "La paz del Señor esté siempre con vosotros.",
+    "peace.invitation": "Daos fraternalmente la paz.",
+    "peace.text": "Paz con te.",
+
+    "agnus_dei.text": "Cordero de Dios, que quitas el pecado del mundo,\nten piedad de nosotros.\nCordero de Dios, que quitas el pecado del mundo,\nten piedad de nosotros.\nCordero de Dios, que quitas el pecado del mundo,\ndanos la paz.",
+    "agnus_dei.prayer": "Éste es el Cordero de Dios, que quita el pecado del mundo.\nDichosos los llamados a la cena del Señor.",
+    "agnus_dei.lord_i_am_not_worthy": "Señor, no soy digno de que entres en mi casa,\npero una palabra tuya bastará para sanarme.",
+
+    "blessing": "La bendición de Dios todopoderoso, ✠ Padre, Hijo y Espíritu Santo, descienda sobre vosotros.",
+
+    "dismissal": "Podéis ir en paz.",
+    "dismissal.people.response": "Demos gracias a Dios."
+  }
+}

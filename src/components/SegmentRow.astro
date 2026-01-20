@@ -1,0 +1,30 @@
+---
+const { segmentId, meta } = Astro.props;
+const speaker = meta?.speaker ?? "";
+---
+
+<div class="mr-line" data-line>
+  <span class="mr-spk" data-speakerrole="label" data-speaker={speaker}></span>
+
+  <div class="mr-cols">
+    <!-- Primary -->
+    <div class="mr-col">
+      <span
+        class="mr-text mr-primary"
+        data-textid={segmentId}
+        data-langrole="primary"
+        data-speaker={speaker}
+      ></span>
+    </div>
+
+    <!-- Secondary -->
+    <div class="mr-col mr-secondarycol" data-secondarywrap>
+      <span
+        class="mr-text mr-secondary"
+        data-textid={segmentId}
+        data-langrole="secondary"
+        data-speaker={speaker}
+      ></span>
+    </div>
+  </div>
+</div>

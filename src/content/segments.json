@@ -1,0 +1,73 @@
+[
+  { "id": "sign.of.the.cross", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "response.amen", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+
+  { "id": "dialogue.the_lord_be_with_you", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "dialogue.opening.longer", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "response.and_with_your_spirit", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+
+  { "id": "penitential.act.invitation", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+  { "id": "penitential.act.text", "speaker": "ALL", "kind": "spoken", "style": "prayer" },
+  { "id": "penitential.act.absolution", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+   
+  { "id": "kyrie.eleison", "speaker": "PRIEST/CHOIR", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "kyrie.eleison.response", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+  { "id": "christe.eleison", "speaker": "PRIEST/CHOIR", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "christe.eleison.response", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+  
+  { "id": "gloria.text", "speaker": "ALL", "kind": "spoken/sung", "style": "prayer" },
+
+  { "id": "invitation.let_us_pray", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+  
+  { "id": "reading.end", "speaker": "READER", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "reading.response", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+  
+  { "id": "gospel.announcement", "speaker": "PRIEST/DEACON", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "gospel.announcement.response", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+  { "id": "gospel.end", "speaker": "PRIEST/DEACON", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "gospel.end.response", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+
+  { "id": "creed.nicene.text", "speaker": "ALL", "kind": "spoken", "style": "prayer" },
+  { "id": "creed.apostles.text", "speaker": "ALL", "kind": "spoken", "style": "prayer" },
+
+  { "id": "prayer.faithful.invitation", "speaker": "READER", "kind": "spoken", "style": "dialogue" },
+  { "id": "prayer.faithful.response", "speaker": "PEOPLE", "kind": "spoken", "style": "response" },
+
+  { "id": "offertory.blessing.bread", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+  { "id": "offertory.blessing.wine", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+  { "id": "offertory.blessing.bread_wine.response", "speaker": "PEOPLE", "kind": "spoken", "style": "response" },
+  { "id": "offertory.invitation", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+  { "id": "offertory.invitation.response", "speaker": "PEOPLE", "kind": "spoken", "style": "response" },
+  
+  { "id": "preface.lift_up_hearts", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "preface.response_2", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+  { "id": "preface.let_us_give_thanks", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "preface.response_3", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+  { "id": "preface.text", "speaker": "PRIEST", "kind": "spoken/sung", "style": "prayer" },
+  
+  { "id": "sanctus.text", "speaker": "ALL", "kind": "spoken", "style": "acclamation" },
+
+  { "id": "memorial.acclamation.invitation", "speaker": "PRIEST", "kind": "spoken", "style": "dialogue" },
+  { "id": "memorial.acclamation_1", "speaker": "ALL", "kind": "spoken", "style": "acclamation" },
+  { "id": "memorial.acclamation_2", "speaker": "ALL", "kind": "spoken", "style": "acclamation" },
+  { "id": "memorial.acclamation_3", "speaker": "ALL", "kind": "spoken", "style": "acclamation" },
+
+  { "id": "lords_prayer.invitation", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "lords_prayer.text", "speaker": "ALL", "kind": "spoken/sung", "style": "prayer" },
+  { "id": "lords_prayer.post", "speaker": "PRIEST", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "lords_prayer.post.response", "speaker": "PEOPLE", "kind": "spoken/sung", "style": "response" },
+
+  { "id": "peace.prayer", "speaker": "PRIEST", "kind": "spoken/sung", "style": "prayer" },
+  { "id": "peace.prayer_2", "speaker": "PRIEST", "kind": "spoken/sung", "style": "prayer" },
+  { "id": "peace.invitation", "speaker": "PRIEST/DEACON", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "peace.text", "speaker": "ALL", "kind": "spoken", "style": "response" },
+  
+  { "id": "agnus_dei.text", "speaker": "ALL", "kind": "spoken/sung", "style": "acclamation" },
+  { "id": "agnus_dei.prayer", "speaker": "PRIEST", "kind": "spoken/sung", "style": "acclamation" },
+  { "id": "agnus_dei.lord_i_am_not_worthy", "speaker": "ALL", "kind": "spoken", "style": "prayer" },
+
+  { "id": "blessing", "speaker": "PRIEST", "kind": "spoken/sung", "style": "prayer" },
+  
+  { "id": "dismissal", "speaker": "PRIEST/DEACON", "kind": "spoken/sung", "style": "dialogue" },
+  { "id": "dismissal.people.response", "speaker": "PEOPLE", "kind": "spoken", "style": "response" }
+]
