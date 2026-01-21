@@ -2,11 +2,12 @@
 const { availableLangs, defaultPrimary, defaultSecondary } = Astro.props;
 
 const LANG_NAMES = {
-  "es-ES": "Español",
   "en-EN": "English",
   "la-LA": "Latin",
   "it-IT": "Italiano",
+  "es-ES": "Español",
   "sk-SK": "Slovenčina",
+  "cz-CZ": "Čeština"
 };
 const nameFor = (code) => LANG_NAMES[code] ?? code;
 ---
