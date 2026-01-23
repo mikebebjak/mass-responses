@@ -16,7 +16,7 @@
 html { overflow-x: hidden; }
 body { overflow-x: hidden; }
 
-/* * { outline: 1px solid rgba(255, 0, 0, 0.35); } */
+* { outline: 1px solid rgba(255, 0, 0, 0.35); }
 
 /* Typography closer to printed missal feel */
 body {
