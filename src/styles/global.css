@@ -13,10 +13,31 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html { overflow-x: hidden; }
-body { overflow-x: hidden; }
+/* Prevent width+padding overflow weirdness */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-* { outline: 1px solid rgba(255, 0, 0, 0.35); }
+/* Prevent mobile “rubber band” sideways scroll */
+html, body {
+  overflow-x: clip;
+  overscroll-behavior-x: none;
+}
+
+@supports not (overflow: clip) {
+  html, body { overflow-x: hidden; }
+}
+
+body {
+  min-height: 100svh;
+}
+
+@supports (min-height: 100dvh) {
+  body { min-height: 100dvh; }
+}
+
+
+/* { outline: 1px solid rgba(255, 0, 0, 0.35); } */
 
 /* Typography closer to printed missal feel */
 body {
