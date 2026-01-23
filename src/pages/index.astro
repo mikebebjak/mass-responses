@@ -81,7 +81,7 @@ const enterHref = "/mass";
       <div class="mt-10 flex flex-wrap gap-12"></div>
 
       <div class="flag-carousel">
-        <div class="flag-track">
+        <div class="flag-track" id="flagTrack">
           <a class="flag-item" href="/mass?lang=en-EN" aria-label="English" title="English">
             <span class="flag-chip fib fi-gb"></span>
             <span class="flag-label"><span class="sr-only">Mass responses in </span>English</span>
@@ -121,9 +121,12 @@ const enterHref = "/mass";
 
       <div class="mt-10 flex flex-wrap gap-12"></div>
 
-      <a href={enterHref} class="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-5 py-4 text-lg font-semibold text-white shadow-sm">
-        Enter
-      </a>
+      <div class="mt-8 overflow-hidden rounded-2xl">
+        <a href={enterHref}
+          class="inline-flex w-full max-w-full items-center justify-center bg-slate-900 px-5 py-4 text-lg font-semibold text-white shadow-sm">
+          Enter
+        </a>
+      </div>
 
       <div class="mt-10 flex flex-wrap gap-12"></div>
 
@@ -153,11 +156,40 @@ const enterHref = "/mass";
 </html>
 
 <script>
+  function highlightActiveFlag(lang) {
+    document.querySelectorAll(".flag-chip").forEach(f =>
+      f.classList.toggle("active", f.dataset.lang === lang)
+    );
+  }
+</script>
 
-function highlightActiveFlag(lang) {
-  document.querySelectorAll(".flag-chip").forEach(f =>
-    f.classList.toggle("active", f.dataset.lang === lang)
-  );
-}
+{/* enable horizontal scrolling on the flag carousel when the mouse cursor is over it on desktop */}
+<script>
+  const track = document.getElementById("flagTrack");
 
+  if (track) {
+    track.addEventListener(
+      "wheel",
+      (e) => {
+        const canScrollX = track.scrollWidth > track.clientWidth;
+        if (!canScrollX) return;
+
+        const atStart = track.scrollLeft === 0;
+        const atEnd =
+          Math.ceil(track.scrollLeft + track.clientWidth) >= track.scrollWidth;
+
+        const scrollingDown = e.deltaY > 0;
+        const scrollingUp = e.deltaY < 0;
+
+        // Allow normal page scroll ONLY if carousel can't scroll further
+        if ((scrollingUp && atStart) || (scrollingDown && atEnd)) {
+          return;
+        }
+
+        e.preventDefault();
+        track.scrollLeft += e.deltaY;
+      },
+      { passive: false }
+    );
+  }
 </script>
