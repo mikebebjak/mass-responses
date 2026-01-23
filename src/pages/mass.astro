@@ -10,9 +10,10 @@ import segments from "../content/segments.json";
 
 // Translations
 import en from "../content/translations/en-EN.json";
-import es from "../content/translations/es-ES.json";
 import la from "../content/translations/la-LA.json";
 import it from "../content/translations/it-IT.json";
+import fr from "../content/translations/fr-FR.json";
+import es from "../content/translations/es-ES.json";
 import sk from "../content/translations/sk-SK.json";
 import cz from "../content/translations/cz-CZ.json";
 
@@ -30,6 +31,7 @@ const translations = {
   "en-EN": en,
   "la-LA": la,
   "it-IT": it,
+  "fr-FR": fr,
   "es-ES": es,
   "sk-SK": sk,
   "cz-CZ": cz
@@ -44,7 +46,13 @@ const fallbackLang = "en-EN";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mass Responses in Different Language for Travelers</title>
+    
+    <title>Catholic Mass Responses in Multiple Languages | For Travelers</title>
+    <meta
+      name="description"
+      content="Catholic Mass responses in multiple languages for travelers. Compare responses side by side in English, Latin, Italian, French, Spanish, and more!"
+    />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
 
@@ -60,8 +68,26 @@ const fallbackLang = "en-EN";
     </div>
 
     <main class="mx-auto max-w-2xl px-3 pb-24 pt-4">
+      
       <h1 class="mb-3 text-2xl font-semibold leading-tight" data-labelkey={flow.titleKey}></h1>
 
+      {/* SEO-only content (hidden, no UX impact) */}
+      <div class="sr-only" aria-hidden="true">
+        <h2>Catholic Mass Responses</h2>
+        <p>
+          Mobile-optimized Catholic Mass responses in multiple languages for travelers and worshippers. Side-by-side translations available in multiple languages.
+        </p>
+        <ul>
+          <li>Catholic Mass responses in English</li>
+          <li>Catholic Mass responses in Latin</li>
+          <li>Catholic Mass responses in Italian</li>
+          <li>Catholic Mass responses in French</li>
+          <li>Catholic Mass responses in Spanish</li>
+          <li>Catholic Mass responses in Slovak</li>
+          <li>Catholic Mass responses in Czech</li>
+        </ul>
+      </div>
+      
       <div class="space-y-3">
         {flow.sections.map((section: any) => (
           <SectionAccordion section={section} segmentsById={segmentsById} />

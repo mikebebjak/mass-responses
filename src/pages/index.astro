@@ -8,7 +8,11 @@ const enterHref = "/mass";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-    <title>Catholic Mass Responses in Different Languages for Travelers</title>
+    <title>Catholic Mass Responses in Multiple Languages | For Travelers</title>
+    <meta
+      name="description"
+      content="Catholic Mass responses in multiple languages for travelers. Compare responses side by side in English, Latin, Italian, French, Spanish, and more!"
+    />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
@@ -64,23 +68,54 @@ const enterHref = "/mass";
 
       <div class="mt-10 flex flex-wrap gap-30"></div>
 
-      <h1 class="text-3xl font-semibold leading-tight text-center">Mass Responses for Travelers</h1>
+      <h1 class="text-3xl font-semibold leading-tight text-center">Catholic Mass Responses for Travelers</h1>
 
       <p class="mr-text">
-        Clean, mobile-friendly Mass responses in different languages for travelers on the go - built by the community and optimized for ease of use during worship.
+        Traveling to another country and struggling to follow the Catholic Mass? This site provides clear, mobile-friendly, multilingual Catholic Mass responses so travelers can actively participate in the liturgy anywhere in the world. Includes side-by-side translations for all available languages.
       </p>
+
+      <div class="mt-10 flex flex-wrap gap-30"></div>
+
+      <p class="mr-text">Available languages:</p>
 
       <div class="mt-10 flex flex-wrap gap-30"></div>
 
       <div class="flag-carousel">
         <div class="flag-track">
-          <a class="flag-chip fib fi-gb" href="/mass?lang=en-EN" aria-label="English" title="English"></a>
-          <a class="flag-chip fib fi-va" href="/mass?lang=la-LA" aria-label="Latin" title="Latin"></a>
-          <a class="flag-chip fib fi-it" href="/mass?lang=it-IT" aria-label="Italiano" title="Italiano"></a>
-          <a class="flag-chip fib fi-es" href="/mass?lang=es-ES" aria-label="Español" title="Español"></a>
-          <a class="flag-chip fib fi-sk" href="/mass?lang=sk-SK" aria-label="Slovenčina" title="Slovenčina"></a>
-          <a class="flag-chip fib fi-cz" href="/mass?lang=cz-CZ" aria-label="Čeština" title="Čeština"></a>
-          <!--<a class="flag-chip fib fi-fr" href="/mass?lang=fr-FR" aria-label="Français" title="Français"></a>-->
+          <a class="flag-item" href="/mass?lang=en-EN" aria-label="English" title="English">
+            <span class="flag-chip fib fi-gb"></span>
+            <span class="flag-label">English</span>
+          </a>
+
+          <a class="flag-item" href="/mass?lang=la-LA" aria-label="Latin" title="Latin">
+            <span class="flag-chip fib fi-va"></span>
+            <span class="flag-label"><span class="sr-only">Mass responses in </span>Latin</span>
+          </a>
+
+          <a class="flag-item" href="/mass?lang=it-IT" aria-label="Italian" title="Italian">
+            <span class="flag-chip fib fi-it"></span>
+            <span class="flag-label"><span class="sr-only">Mass responses in </span>Italian</span>
+          </a>
+
+          <a class="flag-item" href="/mass?lang=fr-FR" aria-label="French" title="French">
+            <span class="flag-chip fib fi-fr"></span>
+            <span class="flag-label"><span class="sr-only">Mass responses in </span>French</span>
+          </a>
+
+          <a class="flag-item" href="/mass?lang=es-ES" aria-label="Spanish" title="Spanish">
+            <span class="flag-chip fib fi-es"></span>
+            <span class="flag-label"><span class="sr-only">Mass responses in </span>Spanish</span>
+          </a>
+
+          <a class="flag-item" href="/mass?lang=sk-SK" aria-label="Slovak" title="Slovak">
+            <span class="flag-chip fib fi-sk"></span>
+            <span class="flag-label"><span class="sr-only">Mass responses in </span>Slovak</span>
+          </a>
+
+          <a class="flag-item" href="/mass?lang=cz-CZ" aria-label="Czech" title="Czech">
+            <span class="flag-chip fib fi-cz"></span>
+            <span class="flag-label"><span class="sr-only">Mass responses in </span>Czech</span>
+          </a>
         </div>
       </div>
 
@@ -92,10 +127,27 @@ const enterHref = "/mass";
 
       <div class="mt-10 flex flex-wrap gap-30"></div>
 
-      <p class="mr-text">
+      <p class="mr-secondary">
         Note: Vernacular liturgical texts are the property of their respective rights holders.
         Texts here are NOT OFFICIAL and are provided for personal devotional and educational use only. Please <a href="mailto:michaelbebjak@gmail.com">contact us</a> with any questions. 
       </p>
+
+      {/* SEO-only content (hidden, no UX impact) */}
+      <div class="sr-only" aria-hidden="true">
+        <h2>Catholic Mass Responses</h2>
+        <p>
+          Mobile-optimized Catholic Mass responses in multiple languages for travelers and worshippers. Side-by-side translations available in multiple languages.
+        </p>
+        <ul>
+          <li>Catholic Mass responses in English</li>
+          <li>Catholic Mass responses in Latin</li>
+          <li>Catholic Mass responses in Italian</li>
+          <li>Catholic Mass responses in French</li>
+          <li>Catholic Mass responses in Spanish</li>
+          <li>Catholic Mass responses in Slovak</li>
+          <li>Catholic Mass responses in Czech</li>
+        </ul>
+      </div>
 
     </main>
   </body>

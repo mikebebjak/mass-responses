@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "language": "fr-FR",
+    "label": "Français",
+    "rite": "Rite romain – Forme ordinaire"
+  },
+  "speakers": {
+    "PRIEST": "P:",
+    "DEACON": "D:",
+    "READER": "L:",
+    "PEOPLE": "A:",
+    "ALL": "A:",
+    "PRIEST/DEACON": "P:",
+    "PRIEST/CHOIR": "P:",
+    "PRIEST/CHOIR/DEACON": "P:"
+  },
+  "labels": {
+    "title.mass_responses_core": "Le Sainte Messe",
+    "title.introductory_rites": "Rite d'entrée",
+    "title.sign_of_cross": "Signe de la Croix",
+    "title.greeting": "Salutation",
+    "title.penitential_act": "Acte de Pénitence",
+    "title.kyrie": "Kyrie",
+    "title.gloria": "Gloria",
+    "title.collect": "Prière d'ouverture",
+
+    "title.liturgy_of_the_word": "Liturgie de la parole",
+    "title.first_reading": "Première lecture",
+    "title.responsorial_psalm": "Psaume",
+    "title.second_reading": "Deuxième lecture",
+    "title.gospel_acclamation": "Acclamation de l'Évangile",
+    "title.gospel": "Évangile",
+    "title.creed": "Credo",
+    "title.creed.nicene": "Symbole de Nicée-Constantinople",
+    "title.creed.apostles": "Le Symbole des Apôtres",
+    "title.prayer_of_faithful": "Prière universele",
+
+    "title.liturgy_of_the_eucharist": "Liturgie de l'Eucharistie",
+    "title.offertory": "Présentation des dons",
+    "title.offertory_prayer": "Prière sur les offrandes",
+    "title.preface": "Préface",
+    "title.sanctus": "Sanctus",
+    "title.eucharistic_prayer": "Prière eucharistique",
+    "title.memorial_acclamation": "Acclamation mémorialisée",
+    "title.doxology": "Doxologie",
+    "title.lords_prayer": "Notre Père",
+    "title.sign_of_peace": "Signe de la paix",
+    "title.communion_rite": "Rite de la communion",
+    "title.communion": "Communion",
+
+    "title.concluding_rites": "Rites de conclusion",
+    "title.concluding.prayer": "Priére après la communion",
+    "title.blessing": "Bénédiction",
+    "title.dismissal": "Renvoi",
+
+    "choice.option_1": "Option 1",
+    "choice.option_2": "Option 2",
+    "choice.option_3": "Option 3"
+  },
+  "texts": {
+    "sign.of.the.cross": "Au nom du Père ✠ et du Fils et du Saint-Esprit.",
+    "response.amen": "Amen.",
+
+    "dialogue.the_lord_be_with_you": "Le Seigneur soit avec vous.",
+    "dialogue.opening.longer": "La grâce de Jésus notre Seigneur, l'amour de Dieu le Père et la communion de l'Esprit Saint soient toujours avec vous.",
+    "response.and_with_your_spirit": "Et avec votre esprit.",
+
+    "penitential.act.invitation": "Préparons-nous à la célebration de l'Eucharistie en reconnaissant que nous sommes pécheurs.",
+    "penitential.act.text": "Je confesse à Dieu tout-puissant,\nje reconnais devant mes frères,\nque j'ai péché, en pensée, en parole,\npar action et par omission,\noui, j'ai vraiment péché:\nC'est pourquoi je supplie la bienheureuse Vierge Marie,\nles anges et tous les saints,\net vous aussi, frères et soeurs,\nde prier pour moi le Seigneur notre Dieu.",
+    "penitential.act.absolution": "Que Dieu tout-puissant nous fasse misericorde; qu'il nous pardonne nos péchés et nous conduise a la vie eternelle.",
+
+    "kyrie.eleison": "Seigneur, prends pitié.",
+    "kyrie.eleison.response": "Seigneur, prends pitié.",
+    "christe.eleison": "Ô Christ, prends pitié.",
+    "christe.eleison.response": "Ô Christ, prends pitié.",
+    
+    "gloria.text": "Gloire à Dieu, au plus haut des cieux,\net paix sur la terre aux hommes qu'il aime.\nNous te louons,\nnous te bénissons,\nnous t'adorons,\nnous te glorifions,\nnous te rendons grâce,\npour ton immense gloire,\nSeigneur Dieu, Roi du ciel,\nDieu le Père tout-puissant.\nSeigneur, Fils unique, Jésus-Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père;\nToi qui enlèves les péchés du monde,\nprends pitié de nous;\nToi qui enlèves les péchés du monde,\nreçois notre prière;\nToi qui es assis à la droite du Père,\nprends pitié de nous.\nCar Toi seul es saint,\nToi seul es Seigneur,\nToi seul es le Très-Haut, Jésus-Christ\navec le Saint-Esprit\ndans la gloire de Dieu le Père. Amen.",
+
+    "invitation.let_us_pray": "Prions.",
+
+    "reading.end": "Parole de Seigneur.",
+    "reading.response": "Nous rendons grâce à Dieu.",
+
+    "gospel.announcement": "Èvangile de Jésus Christ selon saint N.",
+    "gospel.announcement.response": "Gloire à toi, Seigneur.",
+    "gospel.end": "Acclamons la Parole de Dieu.",
+    "gospel.end.response": "Louange à toi, Seigneur Jésus.",
+
+    "creed.nicene.text": "Je crois en un seul Dieu,\nLe Père tout-puissant, créateur du ciel et la terre,\nde l'univers visible et invisible.\nJe crois en un seul Seigneur Jésus-Christ,\nle Fils unique de Dieu,\nné du Père avant tous les siècles:\nIl est Dieu, né de Dieu,\nlumière, née de la lumière,\nvrai Dieu, né du vrai Dieu.\nEngendré, non pas créé,\nconsubstantiel au Père;\net par lui tout a été fait.\nPour nous les hommes, et pour notre salut,\nil descendit du ciel.\nAux mots qui suivent,\ntous s'inclinent jusqu'à: s'est fait homme.\nCrucifié pour nous sous Ponce Pilate,\nil souffri sa Passion et fut mis au tombeau.\nIl ressuscita le troisième jour,\nconformemént aux Écritures,\net il monta au ciel;\nil est assis à la droite du Père.\nIl reviendra dans la gloire,\npour juger les vivants et les morts;\net son regne n'aura pas de fin.\nJe crois en l'Esprit-Saint,\nqui est Seigneur et qui donne la vie;\nil procède du Père et du Fils.\nAvec le Père et le Fils,\nil reçoit même adoration et même gloire;\nil a parlé par les prophètes.\nJe crois en l'Église,\nune, sainte, catholique et apostolique.\nJe reconnais un seul baptême pour le pardon des péchés.\nJ'attends la résurrection des morts,\net la vie du monde à venir. Amen.",
+    "creed.apostles.text": "Je crois en Dieu, le Père Tout-puissant,\nCréateur du ciel et de la terre.\nEt en Jésus Christ, son Fils seul engendré, notre Seigneur;\nqui a été conçu du Saint-Esprit,\nEt qui est né de la Vierge Marie.\nIl a souffert sous Ponce Pilate,\na été crucifié;\nIl est mort et a été enseveli;\nIl est descendu au séjour des morts.\nLe troisième jour, Il est ressuscité des morts;\nIl est monté au ciel,\nd'où Il est assis à la droite de Dieu le Père Tout-puissant.\nDe là, Il viendra pour juger les vivants et les morts.\nJe crois en l'Esprit Saint,\nà la sainte Église catholique,\nà la communion des saints,\nà la rémission des péchés,\nà la résurrection de la chair\net à la vie éternelle. Amen.",
+
+    "prayer.faithful.invitation": "Prions le Seigneur.",
+    "prayer.faithful.response": "Seigneur, écoute nos prières.",
+
+    "offertory.blessing.bread": "Tu es béni, Dieu de l'univers, toi qui nous donnes ce pain, fruit de la terre et du travail des hommes; nous te le présentons: il deviendra le pain de la vie.",
+    "offertory.blessing.wine": "Tu es béni, Dieu de l'univers, toi qui nous donnes ce vin, fruit de la vigne et du travail des hommes; nous te le présentons: il deviendra le vin du Royaume éternel.",
+    "offertory.blessing.bread_wine.response": "Béni soit Dieu, maintenant et toujours.",
+    "offertory.invitation": "Priez, frères et sœurs: que mon sacrifice, qui est aussi le vôtre, soit agréable à Dieu le Père tout-puissant.",
+    "offertory.invitation.response": "Que le Seigneur reçoive de vos mains ce sacrifice à la louange et à la gloire de son nom, pour notre bien et celui de toute l'Église.",
+
+    "preface.lift_up_hearts": "Elevons notre coeur.",
+    "preface.response_2": "Nous le tournons vers le Seigneur.",
+    "preface.let_us_give_thanks": "Rendons grâce au Seigneur notre Dieu.",
+    "preface.response_3": "Cela est juste et bon.",
+    "preface.text": "Vraiment, Père très saint, il est juste et bon ... avec les anges et tous les saints, nous proclamons ta gloire, en chantant d'une seule voix:",
+
+    "sanctus.text": "Saint, Saint, Saint le Seigneur,\nDieu de l'univers.\nLe ciel et la terre sont remplis de ta gloire.\nHosanna au plus haut des cieux.\nBéni soit celui qui vient au nom du Seigneur.\nHosanna au plus haut des cieux.",
+
+    "memorial.acclamation.invitation": "Il est grand, le mystère de la foi.",
+    "memorial.acclamation_1": "Nous annonçons ta mort, Seigneur Jésus,\nnous proclamons ta résurrection,\nnous attendons ta venue dans la gloire.",
+    "memorial.acclamation_2": "Quand nous mangeons ce Pain\net buvons à cette Coupe,\nnous annonçons ta mort, Seigneur ressuscité,\net nous attendons que tu viennes. ",
+    "memorial.acclamation_3": "Sauveur du monde, sauve-nous!\nPar ta croix et ta résurrection,\ntu nous as libérés.",
+
+    "doxology": "Par lui, avec lui et en lui, à toi, Dieu le Père tout-puissant, dans l'unité du Saint-Esprit, tout honneur et toute gloire, pour les siècles des siècles.",
+
+    "lords_prayer.invitation": "Comme nous l'avons appris du Sauveur, et selon son commandement, nous osons dire:",
+    "lords_prayer.text": "Notre Père, qui es aux cieux,\nque ton nom soit sanctifié;\nque ton règne vienne,\nque ta volonte soit faite sur la terre comme au ciel.\nDonne-nous aujourd'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi\ná ceux qui nous ont offensés.\nEt ne nous soumets pas à la tentation,\nmais delivre-nous du mal.",
+    "lords_prayer.post": "Delivre-nous de tout mal, Seigneur, et donne la paix à notre temps; par ta miséricorde; libère-nous du péché, rassure-nous devantles épreuves en cette vie où nous espérons le bonheur que tu promets et l'avènement de Jésus Christ, notre Sauveur.",
+    "lords_prayer.post.response": "Car c'est à toi qu'appartiennent le règne,\nla puissance et la gloire,\npour les siècles des siècles.",
+
+    "peace.prayer": "Seigneur Jésus-Christ, tu as dit à tes Apôtres ... toi qui règnes pour les siècles des siècles.",
+    "peace.prayer_2": "Que la paix du Seigneur soit toujours avec vous.",
+    "peace.invitation": "Frères et soeurs, donnez-vous la paix.",
+    "peace.text": "Paix à vous.",
+
+    "agnus_dei.text": "Agneau de Dieu, qui enlèves les péchés du monde,\nprends pitié de nous.\nAgneau de Dieu, qui enlèves les péchés du monde,\nprends pitié de nous.\nAgneau de Dieu, qui enlèves les péchés du monde,\ndonne-nous la paix.",
+    "agnus_dei.prayer": "Voici l'Agneau de Dieu, qui enlève les pèchès du monde. Heureux les invités au repas des noces de l'Agneau! ",
+    "agnus_dei.lord_i_am_not_worthy": "Seigneur, je ne suis pas digne de te recevoir;\nmais dis seulement une parole\net je serai guéri.",
+
+    "blessing": "Que Dieu tout-puissant vous bénisse, le Père, ✠ le Fils et Saint-Esprit.",
+
+    "dismissal": "Allez, dans la paix du Christ.",
+    "dismissal.people.response": "Nous rendons grâce à Dieu."
+  }
+}
