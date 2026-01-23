@@ -223,11 +223,12 @@ body {
 
 .flag-carousel {
   max-width: 100%;
+  overflow: hidden;
 }
 
 .flag-track {
   max-width: 100%;
-
+  contain: layout paint;
   display: flex;
   flex-wrap: nowrap;
   gap: 2rem;
