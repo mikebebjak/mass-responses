@@ -30,6 +30,7 @@
     "title.second_reading": "Segunda lectura",
     "title.gospel_acclamation": "Aclamación del evangelio",
     "title.gospel": "Evangelio",
+    "title.homily": "Homilía",
     "title.creed": "Credo",
     "title.creed.nicene": "Credo Niceno",
     "title.creed.apostles": "Credo de los Apóstoles",
@@ -39,7 +40,7 @@
     "title.offertory": "Ofertorio",
     "title.offertory_prayer": "Oración sobre las ofrendas",
     "title.preface": "Prefacio",
-    "title.sanctus": "Santo, Santo (Sanctus)",
+    "title.sanctus": "Santo, Santo, Santo",
     "title.eucharistic_prayer": "Oración eucarística",
     "title.memorial_acclamation": "Aclamación memorial",
     "title.doxology": "Doxología",
@@ -74,7 +75,7 @@
     "christe.eleison": "Cristo, ten piedad.",
     "christe.eleison.response": "Cristo, ten piedad.",
     
-    "gloria.text": "Gloria a Dios en el cielo,\ny en la tierra paz a los hombres que ama el Señor.\nPor tu inmensa gloria te alabamos,\nte benedicimos, te adoramos, te glorificamos,\nte damos gracias, Señor Dios, Rey celestial, Dios Padre todopoderoso.\nSeñor, Hijo único, Jesucristo.\nSeñor Dios, Cordero de Dios, Hijo del Padre:\ntú que quitas el pecado del mundo,\nten piedad de nosotros;\ntú que quitas el pecado del mundo,\natiende nuestra súplica;\ntú que estás sentado a la derecha del Padre,\nten piedad de nosotros;\npor que sólo tú eres Santo, sólo tú Señor,\nsólo tú Altísimo, Jesucristo,\ncon el Espíritu Santo en la gloria de Dios Padre. Amén.",
+    "gloria.text": "Gloria a Dios en el cielo,\ny en la tierra paz a los hombres que ama el Señor.\nPor tu immensa gloria te alabamos,\nte benedicimos, te adoramos, te glorificamos,\nte damos gracias, Señor Dios, Rey celestial, Dios Padre todopoderoso.\nSeñor, Hijo único, Jesucristo.\nSeñor Dios, Cordero de Dios, Hijo del Padre:\ntú que quitas el pecado del mundo,\nten piedad de nosotros;\ntú que quitas el pecado del mundo,\natiende nuestra súplica;\ntú que estás sentado a la derecha del Padre,\nten piedad de nosotros;\npor que sólo tú eres Santo, sólo tú Señor,\nsólo tú Altísimo, Jesucristo,\ncon el Espíritu Santo en la gloria de Dios Padre. Amén.",
 
     "invitation.let_us_pray": "Oremos.",
 
@@ -87,7 +88,7 @@
     "gospel.end.response": "Gloria a Ti, Señor Jesús.",
 
     "creed.nicene.text": "Creo en un solo Dios, Padre todopoderoso,\nCreador del cielo y de la tierra,\nde todo lo visible y lo invisible.\nCreo en un solo Señor, Jesucristo,\nHijo único de Dios,\nnacido del Padre antes de todos los siglos:\nDios de Dios, Luz de Luz,\nDios verdadero de Dios verdadero,\nengendrado, no creado,\nde la misma naturaleza del Padre,\npor quien todo fue hecho;\nque por nosotros, los hombres, y por nuestra salvación\nbajó del cielo,\ny por obra del Espíritu Santo se encarnó de María,\nla Virgen, y se hizo hombre.\nY por nuestra causa fue crucificado en tiempos de Poncio Pilato;\npadeció y fue sepultado,\ny resucitó al tercer día, según las Escrituras,\ny subió al cielo, y está sentado a la derecha del Padre;\ny de nuevo vendrá con gloria para juzgar a vivos y muertos,\ny su reino no tendrá fin.\nCreo en el Espíritu Santo,\nSeñor y dador de vida,\nque procede del Padre y del Hijo,\nque con el Padre y el Hijo recibe una misma adoración y gloria,\ny que habló por los profetas.\nCreo en la Iglesia,\nque es una, santa, católica y apostólica.\nConfieso que hay un solo bautismo para el perdón de los pecados.\nEspero la resurrección de los muertos\ny la vida del mundo futuro. Amén.",
-    "creed.apostles.text": "Creo en Dios, Padre todopoderoso,\nCreador del Cielo y de la Tierra. \nCreo en Jesucristo, su Único Hijo nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de Santa María Virgen.\nPadeció bajo el poder de Poncio Pilato.\nFue crucificado, muerto y sepultado.\nDescendió a los infiernos.\nAl tercer día, resucitó de entre los muertos.\nSubió a los Cielos\ny está sentado a la derecha de Dios Padre todopoderoso.\nDesde allí ha de venir a juzgar a los vivos y a los muertos.\nCreo en el Espíritu Santo, en la Santa Iglesia católica,\nla Comunión de los Santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna. Amén.",
+    "creed.apostles.text": "Creo en Dios, Padre todopoderoso,\nCreador del Cielo y de la Tierra. \nCreo en Jesucristo, su Único Hijo nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de Santa María Virgen.\nPadeció bajo el poder de Poncio Pilato.\nFue crucificado, muerto y sepultado.\nDescendió a los infiernos.\nAl tercer día, resucitó de entre los muertos.\nSubió a los Cielos\ny está sentado a la derecha de Dios Padre todopoderoso.\nDesde allí ha de venir a juzgar a los vivos y a los muertos.\nCreo en el Espíritu Santo, la Santa Iglesia católica,\nla Comunión de los Santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna. Amén.",
 
     "prayer.faithful.invitation": "Roguemos al Señor.",
     "prayer.faithful.response": "Te rogamos, óyenos.",
@@ -124,7 +125,7 @@
     "peace.text": "Paz con te.",
 
     "agnus_dei.text": "Cordero de Dios, que quitas el pecado del mundo,\nten piedad de nosotros.\nCordero de Dios, que quitas el pecado del mundo,\nten piedad de nosotros.\nCordero de Dios, que quitas el pecado del mundo,\ndanos la paz.",
-    "agnus_dei.prayer": "Éste es el Cordero de Dios, que quita el pecado del mundo.\nDichosos los llamados a la cena del Señor.",
+    "agnus_dei.prayer": "Éste es el Cordero de Dios, que quita el pecado del mundo.\nDichosos los invitados a la cena del Señor.",
     "agnus_dei.lord_i_am_not_worthy": "Señor, no soy digno de que entres en mi casa,\npero una palabra tuya bastará para sanarme.",
 
     "blessing": "La bendición de Dios todopoderoso, ✠ Padre, Hijo y Espíritu Santo, descienda sobre vosotros.",

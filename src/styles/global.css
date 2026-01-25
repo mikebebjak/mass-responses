@@ -13,30 +13,6 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Prevent width+padding overflow weirdness */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* Prevent mobile “rubber band” sideways scroll */
-html, body {
-  overflow-x: clip;
-  overscroll-behavior-x: none;
-}
-
-@supports not (overflow: clip) {
-  html, body { overflow-x: hidden; }
-}
-
-body {
-  min-height: 100svh;
-}
-
-@supports (min-height: 100dvh) {
-  body { min-height: 100dvh; }
-}
-
-
 /* { outline: 1px solid rgba(255, 0, 0, 0.35); } */
 
 /* Typography closer to printed missal feel */
@@ -223,7 +199,6 @@ body {
 
 .flag-carousel {
   max-width: 100%;
-  overflow: hidden;
 }
 
 .flag-track {
@@ -235,13 +210,11 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   padding: 0.5rem;
-
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   overscroll-behavior-x: contain; /* prevents “page” sideways pull on some browsers */
   touch-action: pan-x;
-
   scrollbar-width: none;
 }
 

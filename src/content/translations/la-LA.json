@@ -16,7 +16,7 @@
     "PRIEST/CHOIR/DEACON": "S:"
   },
   "labels": {
-    "title.mass_responses_core": "Ordo Missae – Responsoria",
+    "title.mass_responses_core": "Ordo Missae",
     "title.introductory_rites": "Ritus initiales",
     "title.sign_of_cross": "Signum Crucis",
     "title.greeting": "Salutatio",
@@ -31,6 +31,7 @@
     "title.second_reading": "Lection Secunda",
     "title.gospel_acclamation": "Acclamatio evangelii",
     "title.gospel": "Evangelium",
+    "title.homily": "Homilia",
     "title.creed": "Credo",
     "title.creed.nicene": "Symbolum Nicaenum-Constantinopolitanum",
     "title.creed.apostles": "Symbolum Apostolorum",

@@ -56,6 +56,7 @@
         { "type": "segment", "id": "gospel.announcement.response" },
         { "type": "segment", "id": "gospel.end" },
         { "type": "segment", "id": "gospel.end.response" },
+        { "type": "title", "labelKey": "title.homily" },
 
         {
           "type": "choice",

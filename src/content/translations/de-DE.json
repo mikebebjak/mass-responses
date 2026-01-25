@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "language": "de-DE",
+    "label": "Deutsch",
+    "rite": "Römischer Ritus"
+  },
+  "speakers": {
+    "PRIEST": "P:",
+    "DEACON": "D:",
+    "READER": "V:",
+    "PEOPLE": "A:",
+    "ALL": "A:",
+    "PRIEST/DEACON": "P:",
+    "PRIEST/CHOIR": "P:",
+    "PRIEST/CHOIR/DEACON": "P:"
+  },
+  "labels": {
+    "title.mass_responses_core": "Messordnung",
+    "title.introductory_rites": "Gesang zur Eröffnung",
+    "title.sign_of_cross": "Kreuzzeichen",
+    "title.greeting": "Begrüßung",
+    "title.penitential_act": "Bußakt",
+    "title.kyrie": "Kyrie",
+    "title.gloria": "Gloria",
+    "title.collect": "Tagesgebet",
+
+    "title.liturgy_of_the_word": "Wortgottesdienst",
+    "title.first_reading": "Erste Lesung",
+    "title.responsorial_psalm": "Antwortpsalm",
+    "title.second_reading": "Zweite Lesung",
+    "title.gospel_acclamation": "Evangeliums-Begrüßung",
+    "title.gospel": "Evangelium",
+    "title.homily": "Homilie",
+    "title.creed": "Glaubensbekenntnis",
+    "title.creed.nicene": "Nicänisches Glaubensbekenntnis",
+    "title.creed.apostles": "Apostolisches Glaubensbekenntnis",
+    "title.prayer_of_faithful": "Allgemeines Gebet",
+
+    "title.liturgy_of_the_eucharist": "Eucharistiefeier",
+    "title.offertory": "Gabenbereitung",
+    "title.offertory_prayer": "Gabengebet",
+    "title.preface": "Vorwort",
+    "title.sanctus": "Heilig, Heilig, Heilig",
+    "title.eucharistic_prayer": "Eucharistiegebet",
+    "title.memorial_acclamation": "Memorial Acclamation",
+    "title.doxology": "Doxologie",
+    "title.lords_prayer": "Pater noster",
+    "title.sign_of_peace": "Zeichen des Friedens",
+    "title.communion_rite": "Kommunionritus",
+    "title.communion": "Kommunion",
+
+    "title.concluding_rites": "Abschlussritus",
+    "title.concluding.prayer": "Schlussgebet",
+    "title.blessing": "Segen",
+    "title.dismissal": "Entlassung",
+
+    "choice.option_1": "Option 1",
+    "choice.option_2": "Option 2",
+    "choice.option_3": "Option 3"
+  },
+  "texts": {
+    "sign.of.the.cross": "Im Namen des Vaters ✠ und des Sohnes und des Heiligen Geistes.",
+    "response.amen": "Amen.",
+
+    "dialogue.the_lord_be_with_you": "Der Herr sei mit euch.",
+    "dialogue.opening.longer": "Die Gnade unseres Herrn Jesus Christus, die Liebe Gottes des Vaters und die Gemeinschaft des Heiligen Geistes sei mit euch.",
+    "response.and_with_your_spirit": "Und mit deinem Geiste.",
+
+    "penitential.act.invitation": "Bevor wir das Gedächtnis des Herrn begehen, wollen wir uns besinnen. Wir bekennen, dass wir gesündigt haben.",
+    "penitential.act.text": "Ich bekenne Gott, dem Allmächtigen,\nund allen Brüdern und Schwestern,\ndas ich Gutes unterlassen und Böses\ngetan habe ich habe gesündigt\nGedanken, Worten und Werken,\ndurch meine Schuld,\ndurch meine Schuld,\ndurch meine große Schuld.\nDarum bitte ich die selige Jungfrau Maria,\nalle Engel und Heiligen\nund euch, Brüder und Schwestern, für saints,\nmich zu beten bei Gott, unserem Herrn.",
+    "penitential.act.absolution": "Der allmächtige Gott erbarme sich unser. Er lasse uns die Sünden nach und führe uns zum ewigen Leben.",
+
+    "kyrie.eleison": "Herr, erbarme dich (unser).",
+    "kyrie.eleison.response": "Herr, erbarme dich (unser).",
+    "christe.eleison": "Christus, erbarme dich (unser).",
+    "christe.eleison.response": "Christus, erbarme dich (unser).",
+    
+    "gloria.text": "Ehre sei Gott in der Höhe und Friede auf Erden den Menschen seiner Gnade. Wir loben dich, wir preisen dich, wir beten dich an, wir rühmen dich und danken dir, denn gross ist deine Herrlichkeit: Herr und Gott, König des Himmels, Gott und Vater, Herrscher über das All, Herr, eingeborener Sohn, Jesus Christus. Herr und Gott, Lamm Gottes, Sohn des Vaters, du nimmst hinweg die Sünde der Welt: erbarme dich unser; du nimmst hinweg die Sünde der Welt nimm an unser Gebet; du sitzest zur Rechten des Vaters: erbarme dich unser. Denn du allein bist der Heilige, du allein der Herr, du allein der Höchste, Jesus Christus, mit dem Heiligen Geist, zur Ehre Gottes des Vaters. Amen.",
+
+    "invitation.let_us_pray": "Lasset uns beten.",
+
+    "reading.end": "Wort des lebendigen Gottes.",
+    "reading.response": "Dank sei Gott.",
+
+    "gospel.announcement": "Aus dem heiligen Evangelium nach N.",
+    "gospel.announcement.response": "Ehre sei dir, o Herr.",
+    "gospel.end": "Evangelium unseres Herrn Jesus Christus.",
+    "gospel.end.response": "Lob sei dir, Christus.",
+
+    "creed.nicene.text": "Wir glauben an den einen Gott,\nden Vater, den Allmächtigen,\nder alles geschaffen hat, Himmel und Erde,\ndie sichtbare und die unsichtbare Welt.\nUnd an den einen Herrn Jesus Christus,\nGottes eingeborenen Sohn,\naus dem Vater geboren vor aller Zeit:\nGott von Gott, Licht vom Licht,\nwahrer Gott vom wahren Gott,\ngezeugt, nicht geschaffen,\neines Wesens mit dem Vater;\ndurch ihn ist alles geschaffen.\nFür uns Menschen und zu unserem Heil,\nist er vom Himmel gekommen,\nhat Fleisch angenommen durch den Heiligen Geist\nvon der Jungfrau Maria\nund ist Mensch geworden.\nEr wurde für uns gekreuzigt unter Pontius Pilatus,\nhat gelitten und ist begraben worden,\nist am dritten Tage auferstanden nach der Schrift\nund aufgefahren in den Himmel.\nEr sitzt zur Rechten des Vaters\nund wird wiederkommen in Herrlichkeit,\nzu richten die Lebenden und die Toten;\nseiner Herrschaft wird kein Ende sein.\nWir glauben an den Heiligen Geist,\nder Herr ist und lebendig macht,\nder aus dem Vater und dem Sohn hervorgeht,\nder mit dem Vater und dem Sohn angebetet und verherrlicht wird,\nder gesprochen hat durch die Propheten;\nund die eine, heilige, katholische und apostolische Kirche.\nWir bekennen die eine Taufe zur Vergebung der Sünden.\nWir erwarten die Auferstehung der Toten\nund das Leben der kommenden Welt. Amen.",
+    "creed.apostles.text": "Ich glaube an Gott, den Vater, den Allmächtigen,\nden Schöpfer des Himmels und der Erde,\nund an Jesus Christus, seinen eingeborenen Sohn, unsern Herrn,\nempfangen durch den Heiligen Geist,\ngeboren von der Jungfrau Maria,\ngelitten unter Pontius Pilatus,\ngekreuzigt, gestorben und begraben,\nhinabgestiegen in das Reich des Todes,\nam dritten Tage auferstanden von den Toten,\naufgefahren in den Himmel;\ner sitzt zur Rechten Gottes, des allmächtigen Vaters;\nvon dort wird er kommen, zu richten die Lebenden und die Toten.\nIch glaube an den Heiligen Geist,\ndie heilige katholische Kirche,\nGemeinschaft der Heiligen,\nVergebung der Sünden,\nAuferstehung der Totenn\nund das ewige Leben. Amen.",
+
+    "prayer.faithful.invitation": "Wir beten zum Herrn.",
+    "prayer.faithful.response": "Wir bitten dich, erhöre uns.",
+
+    "offertory.blessing.bread": "Gepriesen bist du, Herr, unser Gott, Schöpfer der Welt ... damit es uns das Brot des Lebens Verde.",
+    "offertory.blessing.wine": "Gepriesen bist du, Herr, unser Gott, Schöpfer der Welt ... damit es uns das der Kelch des Heiles werde.",
+    "offertory.blessing.bread_wine.response": "Gepriesen bist du in Ewigkeit, Herr, unser Gott.",
+    "offertory.invitation": "Betet, Brüder und Schwestern, dass mein und euer Opfer Gott, dem allmächtigen Vater, gefalle.",
+    "offertory.invitation.response": "Der Herr nehme das Opfer an aus deinen Händen zum Lob und Ruhm seines Namens, zum Segen für uns und seine ganze heilige Kirche.",
+
+    "preface.lift_up_hearts": "Erhebet die Herzen.",
+    "preface.response_2": "Wir haben sie beim Herrn.",
+    "preface.let_us_give_thanks": "Lasset uns danken dem Herrn, unserm Gott.",
+    "preface.response_3": "Das ist würdig und recht.",
+    "preface.text": " In Wahrheit ist es würdig und recht ... mit allen Engeln und Heiligen und singen vereint mit ihnen das Lob deiner Herrlichkeit:",
+
+    "sanctus.text": "Heilig, heilig, heilig Gott,\nHerr aller Mächte und Gewalten.\nErfüllt sind Himmel und Erde von deiner Herrlichkeit.\nHosanna in der Höhe.\nHochgelobt sei, der da kommt im Namen des Herrn.\nHosanna in der Höhe.",
+
+    "memorial.acclamation.invitation": "Geheimnis des Glaubens.",
+    "memorial.acclamation_1": "Deinen Tod, o Herr, verkünden wir, und deine Auferstehung preisen wir, bis du kommst in Herrlichkeit.",
+    "memorial.acclamation_2": "NA",
+    "memorial.acclamation_3": "NA",
+
+    "doxology": "Durch ihn und mit ihm und in ihm ist dir, Gott, allmächtiger Vater, in der Einheit des Heiligen Geistes alle Herrlichkeit und Ehre jetzt und in Ewigkeit.",
+
+    "lords_prayer.invitation": "Dem Wort unseres Herrn uns Erlösers gehorsam und getreu seiner Auftrag, wagen wir zu sprechen:",
+    "lords_prayer.text": "Vater unser im Himmel,\nGeheiligt werde dein Name.\nDein Reich komme.\nDein Wille geschehe,\nwie im Himmel so auf Erden.\nUnser tägliches Brot gib uns heute.\nUnd vergib uns unsere Schuld,\nwie auch wir vergeben unsern Schuldigern.\nUnd führe uns nicht in Versuchung,\nsondern erlöse uns von dem Bösen.",
+    "lords_prayer.post": "Erlöse uns, Herr, allmächtiger Vater, von allem Bösen und gib Frieden in unseren Tagen. Komm uns zu Hilfe mit deinem Erbarmen und bewahre uns vor Verwirrung und Sünde, damit wir voll Zuversicht das Kommen unseres Erlösers Jesus Christus erwarten.",
+    "lords_prayer.post.response": "Denn dein ist das Reich und die Kraft und die Herrlichkeit in Ewigkeit. Amen.",
+
+    "peace.prayer": "Der Herr hat zu seinen Aposteln gesagt: ... und schenke ihr nach deinem Willen Einheit und Frieden.",
+    "peace.prayer_2": "Der Friede des Herrn sei allezeit mit euch.",
+    "peace.invitation": "Gebt einander ein Zeichen des Friedens und der Versöhnung.",
+    "peace.text": "Frieden sei mit dir/ihr.",
+
+    "agnus_dei.text": "Lamm Gottes, du nimmst hinweg die Sünde der Welt:\nerbarme dich unser.\nLamm Gottes, du nimmst hinweg die Sünde der Welt:\nerbarme dich unser.\nLamm Gottes, du nimmst hinweg die Sünde der Welt:\ngib uns deinen Frieden.",
+    "agnus_dei.prayer": "Seht das Lamm Gottes, das hinwegnimmt die Sünde der Welt. Selig die zum Mahl des Lammes geladen sind.",
+    "agnus_dei.lord_i_am_not_worthy": "Herr, ich bin nicht würdig,\ndass du eingehst unter mein Dach,\naber sprich nur ein Wort,\nso wird meine Seele gesund.",
+
+    "blessing": "Es segne euch der allmächtige Gott, der Vater ✠ und der Sohn und der Heilige Geist.",
+
+    "dismissal": "Gehet hin in Frieden.",
+    "dismissal.people.response": "Dank sei Gott, dem Herrn."
+  }
+}
