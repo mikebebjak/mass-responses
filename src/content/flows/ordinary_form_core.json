@@ -64,19 +64,19 @@
           "titleKey": "title.creed",
           "options": [
             {
+              "id": "apostles",
+              "titleKey": "title.creed.apostles",
+              "nodes": [
+                { "type": "segment", "id": "creed.apostles.text" }
+              ]
+            },
+            {
               "id": "nicene",
               "titleKey": "title.creed.nicene",
               "nodes": [
                 { "type": "segment", "id": "creed.nicene.text" }
               ]
             },
-            {
-              "id": "apostles",
-              "titleKey": "title.creed.apostles",
-              "nodes": [
-                { "type": "segment", "id": "creed.apostles.text" }
-              ]
-            }
           ]
         },
 
